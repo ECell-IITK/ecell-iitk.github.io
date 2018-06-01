@@ -1778,9 +1778,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   min-height: 696px;
   text-align: center;
 }
-#about .about-wrap {
-  max-width: 850px;
-}
+
 #about span {
   color: #07617d;
 }
@@ -1803,7 +1801,8 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 }
 #about .lead {
   font-family: "librebaskerville-bold", serif;
-  font-size: 4rem;
+  text-align: justify;
+  font-size: 3.5rem;
   line-height: 1.8;
   color: #2e383f;
   margin-top: 6rem;
@@ -1821,7 +1820,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
     max-width: 800px;
   }
   #about .lead {
-    font-size: 3.8rem;
+    font-size: 3.3rem;
   }
 }
 @media only screen and (max-width: 900px) {
@@ -1829,7 +1828,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
     max-width: 720px;
   }
   #about .lead {
-    font-size: 3.6rem;
+    font-size: 3.1rem;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -1840,7 +1839,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
     max-width: 600px;
   }
   #about .lead {
-    font-size: 3.1rem;
+    font-size: 3rem;
   }
 }
 @media only screen and (max-width: 600px) {
@@ -1852,7 +1851,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   }
   #about .lead {
     margin-top: 4.8rem;
-    font-size: 2.8rem;
+    font-size: 2.5rem;
   }
 }
 @media only screen and (max-width: 500px) {
@@ -1860,7 +1859,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
     font-size: 1.5rem;
   }
   #about .lead {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
   }
 }
 @media only screen and (max-width: 400px) {
@@ -1871,7 +1870,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
     max-width: 380px;
   }
   #about .lead {
-    font-size: 2.3rem;
+    font-size: 2rem;
   }
 }
 
@@ -1920,6 +1919,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   color: #FFFFFF;
 }
 #services .section-intro .lead {
+  text-align: justify;
   color: rgba(242, 242, 242, 0.4);
 }
 #services .services-content {
@@ -1950,6 +1950,10 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   line-height: 1.765;
   color: #FFFFFF;
   margin-bottom: 3rem;
+}
+
+#services .events-desc {
+  text-align: justify;
 }
 
 /* ------------------------------------------------------------------- 
