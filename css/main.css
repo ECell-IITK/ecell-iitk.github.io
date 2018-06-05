@@ -1726,7 +1726,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
     font-size: 1.7rem;
   }
   .home-content-tablecell h1 {
-    font-size: 4.8rem;
+    font-size: 4.2rem;
   }
 }
 @media only screen and (max-width: 500px) {
@@ -1737,7 +1737,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
     font-size: 1.5rem;
   }
   .home-content-tablecell h1 {
-    font-size: 4.2rem;
+    font-size: 3.5rem;
   }
 
   .home-social-list {
@@ -1762,7 +1762,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
     font-size: 1.4rem;
   }
   .home-content-tablecell h1 {
-    font-size: 3.6rem;
+    font-size: 3.2rem;
   }
 }
 
@@ -1802,7 +1802,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 #about .lead {
   font-family: "librebaskerville-bold", serif;
   text-align: justify;
-  font-size: 3.5rem;
+  font-size: 3rem;
   line-height: 1.8;
   color: #2e383f;
   margin-top: 6rem;
@@ -1820,7 +1820,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
     max-width: 800px;
   }
   #about .lead {
-    font-size: 3.3rem;
+    font-size: 3rem;
   }
 }
 @media only screen and (max-width: 900px) {
@@ -1828,7 +1828,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
     max-width: 720px;
   }
   #about .lead {
-    font-size: 3.1rem;
+    font-size: 2.8rem;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -1839,7 +1839,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
     max-width: 600px;
   }
   #about .lead {
-    font-size: 3rem;
+    font-size: 2.6rem;
   }
 }
 @media only screen and (max-width: 600px) {
@@ -1851,7 +1851,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   }
   #about .lead {
     margin-top: 4.8rem;
-    font-size: 2.5rem;
+    font-size: 2.4rem;
   }
 }
 @media only screen and (max-width: 500px) {
