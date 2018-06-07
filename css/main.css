@@ -2532,6 +2532,9 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 #contact .section-intro h3 {
   color: rgba(242, 242, 242, 0.5);
 }
+#contact .section-intro h4 {
+  color: rgba(242, 242, 242, 0.5);
+}
 #contact .section-intro p.lead {
   color: rgba(242, 242, 242, 0.4);
 }
