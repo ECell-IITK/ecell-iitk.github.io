@@ -21,9 +21,11 @@
 	<!-- CSS
 		================================================== -->
 	<link rel="stylesheet" href="css/base.css">
-	<link rel="stylesheet" href="./css/bootstrap.css">
+
 	<link rel="stylesheet" href="css/vendor.css">
 	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+	 crossorigin="anonymous">
 
 	<!-- script
 		================================================== -->
@@ -79,19 +81,24 @@
 			</ul>
 
 			<ul class="header-social-list">
-				<li>
+				<li class="animate-intro">
 					<a href="https://facebook.com/ecelliitk">
-						<i class="fa fa-facebook-square"></i>
+						<i class="fab fa-facebook-square" style="font-size: 1.15em"></i>
+					</a>
+				</li>
+				<li class="animate-intro">
+					<a href="https://m.me/ecelliitk">
+						<i class="fab fa-facebook-messenger" style="font-size: 1.15em"></i>
+					</a>
+				</li>
+				<li class="animate-intro">
+					<a href="https://www.youtube.com/channel/UCvxavCg0UhXq6oKkrBHc9zQ">
+						<i class="fab fa-youtube" style="font-size: 1.15em"></i>
 					</a>
 				</li>
 				<li>
 					<a href="https://twitter.com/ecelliitk">
-						<i class="fa fa-twitter"></i>
-					</a>
-				</li>
-				<li>
-					<a href="https://www.youtube.com/channel/UCvxavCg0UhXq6oKkrBHc9zQ">
-						<i class="fa fa-youtube-play"></i>
+						<i class="fab fa-twitter" style="font-size: 1.15em"></i>
 					</a>
 				</li>
 			</ul>
@@ -124,7 +131,7 @@
 
 						<div class="more animate-intro">
 							<a class="smoothscroll button stroke" href="#about">
-								Learn More
+								Explore
 							</a>
 						</div>
 
@@ -140,17 +147,22 @@
 		<ul class="home-social-list">
 			<li class="animate-intro">
 				<a href="https://facebook.com/ecelliitk">
-					<i class="fa fa-facebook-square"></i>
+					<i class="fab fa-facebook-square" style="font-size: 1.15em"></i>
+				</a>
+			</li>
+			<li class="animate-intro">
+				<a href="https://m.me/ecelliitk">
+					<i class="fab fa-facebook-messenger" style="font-size: 1.15em"></i>
 				</a>
 			</li>
 			<li class="animate-intro">
 				<a href="https://twitter.com/ecelliitk">
-					<i class="fa fa-linkedin"></i>
+					<i class="fab fa-twitter" style="font-size: 1.15em"></i>
 				</a>
 			</li>
 			<li class="animate-intro">
 				<a href="https://www.youtube.com/channel/UCvxavCg0UhXq6oKkrBHc9zQ">
-					<i class="fa fa-youtube-play"></i>
+					<i class="fab fa-youtube" style="font-size: 1.15em"></i>
 				</a>
 			</li>
 		</ul>
@@ -159,7 +171,7 @@
 		<div class="scrolldown">
 			<a href="#about" class="scroll-icon smoothscroll">
 				Scroll Down
-				<i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+				<i class="icon-arrow-right" aria-hidden="true"></i>
 			</a>
 		</div>
 
@@ -338,23 +350,47 @@
 					<div class="brick folio-item">
 						<div class="item-wrap animate-this" data-src="images/portfolio/gallery/g-shutterbug.jpg" data-sub-html="#01">
 							<a href="#" class="overlay">
-								<img src="images/portfolio/shutterbug.jpg" alt="Skaterboy">
+								<img src="images/portfolio/shutterbug.jpg" alt="Shutterbug">
 								<div class="item-text">
 									<h3 class="folio-title">E-Summit</h3>
 								</div>
 							</a>
-							<a href="https://www.behance.net/" class='details-link' title="details">
+							<a href="#" class='details-link' title="details">
 								<i class="icon-link"></i>
 							</a>
 						</div>
 						<!-- end item-wrap -->
 
 						<div id="01" class='hide'>
-							<h4>Shutterbug</h4>
-							<p>Lorem ipsum Dolor deserunt labore sint officia. Magna et aute enim proident tempor sunt quis nulla voluptate fugiat
+							<h4>E-Summit</h4>
+							<!-- <p>Lorem ipsum Dolor deserunt labore sint officia. Magna et aute enim proident tempor sunt quis nulla voluptate fugiat
 								velit.
-								<a href="https://www.behance.net/">Details</a>
-							</p>
+								<a href="#">Details</a>
+							</p> -->
+						</div>
+					</div>
+					<!-- end folio-item -->
+
+					<div class="brick folio-item">
+						<div class="item-wrap animate-this" data-src="images/portfolio/gallery/g-skaterboy.png" data-sub-html="#05">
+							<a href="#" class="overlay">
+								<img src="images/portfolio/skaterboy.png" alt="Bicycle">
+								<div class="item-text">
+									<h3 class="folio-title">Workshops</h3>
+								</div>
+							</a>
+							<a href="#" class='details-link' title="details">
+								<i class="icon-link"></i>
+							</a>
+						</div>
+						<!-- end item-wrap -->
+
+						<div id="05" class='hide'>
+							<h4>Workshops</h4>
+							<!-- <p>Lorem ipsum Dolor deserunt labore sint officia. Magna et aute enim proident tempor sunt quis nulla voluptate fugiat
+								velit.
+								<a href="#">Details</a>
+							</p> -->
 						</div>
 					</div>
 					<!-- end folio-item -->
@@ -364,117 +400,93 @@
 							<a href="#" class="overlay">
 								<img src="images/portfolio/yellowwall.jpg" alt="Shutterbug">
 								<div class="item-text">
-									<h3 class="folio-title">Upstart</h3>
+									<h3 class="folio-title">E-Summit</h3>
 								</div>
 							</a>
-							<a href="https://www.behance.net/" class='details-link' title="details">
+							<a href="#" class='details-link' title="details">
 								<i class="icon-link"></i>
 							</a>
 						</div>
 						<!-- end item-wrap -->
 
 						<div id="02" class='hide'>
-							<h4>Yellow Wall</h4>
-							<p>Lorem ipsum Dolor deserunt labore sint officia. Magna et aute enim proident tempor sunt quis nulla voluptate fugiat
+							<h4>E-Summit</h4>
+							<!-- <p>Lorem ipsum Dolor deserunt labore sint officia. Magna et aute enim proident tempor sunt quis nulla voluptate fugiat
 								velit.
-								<a href="https://www.behance.net/">Details</a>
-							</p>
+								<a href="#">Details</a>
+							</p> -->
 						</div>
 					</div>
 					<!-- end folio-item -->
 
 					<div class="brick folio-item">
-						<div class="item-wrap animate-this" data-src="images/portfolio/gallery/g-architecture.jpg" data-sub-html="#03">
+						<div class="item-wrap animate-this" data-src="images/portfolio/gallery/g-architecture.jpeg" data-sub-html="#03">
 							<a href="#" class="overlay">
-								<img src="images/portfolio/architecture.jpg" alt="Explore">
+								<img src="images/portfolio/architecture.jpeg" alt="Explore">
 								<div class="item-text">
-									<h3 class="folio-title">TEDx</h3>
+									<h3 class="folio-title">UpStart</h3>
 								</div>
 							</a>
-							<a href="https://www.behance.net/" class='details-link' title="details">
+							<a href="#" class='details-link' title="details">
 								<i class="icon-link"></i>
 							</a>
 						</div>
 						<!-- end item-wrap -->
 
 						<div id="03" class='hide'>
-							<h4>Architecture</h4>
-							<p>Lorem ipsum Dolor deserunt labore sint officia. Magna et aute enim proident tempor sunt quis nulla voluptate fugiat
+							<h4>UpStart</h4>
+							<!-- <p>Lorem ipsum Dolor deserunt labore sint officia. Magna et aute enim proident tempor sunt quis nulla voluptate fugiat
 								velit.
-								<a href="https://www.behance.net/">Details</a>
-							</p>
+								<a href="#">Details</a>
+							</p> -->
 						</div>
 					</div>
 					<!-- end folio-item -->
 
 					<div class="brick folio-item">
-						<div class="item-wrap animate-this" data-src="images/portfolio/gallery/g-minimalismo.jpg" data-sub-html="#04">
+						<div class="item-wrap animate-this" data-src="images/portfolio/gallery/g-minimalismo.png" data-sub-html="#04">
 							<a href="#" class="overlay">
-								<img src="images/portfolio/minimalismo.jpg" alt="Minimalismo">
+								<img src="images/portfolio/minimalismo.png" alt="Minimalismo">
 								<div class="item-text">
-									<h3 class="folio-title">Startup MasterClass</h3>
+									<h3 class="folio-title">In the News</h3>
 								</div>
 							</a>
-							<a href="https://www.behance.net/" class='details-link' title="details">
+							<a href="#" class='details-link' title="details">
 								<i class="icon-link"></i>
 							</a>
 						</div>
 						<!-- end item-wrap -->
 
 						<div id="04" class='hide'>
-							<h4>Minimalismo</h4>
-							<p>Lorem ipsum Dolor deserunt labore sint officia. Magna et aute enim proident tempor sunt quis nulla voluptate fugiat
+							<h4>In the News</h4>
+							<!-- <p>Lorem ipsum Dolor deserunt labore sint officia. Magna et aute enim proident tempor sunt quis nulla voluptate fugiat
 								velit.
-								<a href="https://www.behance.net/">Details</a>
-							</p>
+								<a href="#">Details</a>
+							</p> -->
 						</div>
 					</div>
 					<!-- end folio-item -->
 
 					<div class="brick folio-item">
-						<div class="item-wrap animate-this" data-src="images/portfolio/gallery/g-skaterboy.jpg" data-sub-html="#05">
+						<div class="item-wrap animate-this" data-src="images/portfolio/gallery/g-salad.png" data-sub-html="#06">
 							<a href="#" class="overlay">
-								<img src="images/portfolio/skaterboy.jpg" alt="Bicycle">
-								<div class="item-text">
-									<h3 class="folio-title">Startup MasterClass</h3>
-								</div>
-							</a>
-							<a href="https://www.behance.net/" class='details-link' title="details">
-								<i class="icon-link"></i>
-							</a>
-						</div>
-						<!-- end item-wrap -->
-
-						<div id="05" class='hide'>
-							<h4>Skaterboy</h4>
-							<p>Lorem ipsum Dolor deserunt labore sint officia. Magna et aute enim proident tempor sunt quis nulla voluptate fugiat
-								velit.
-								<a href="https://www.behance.net/">Details</a>
-							</p>
-						</div>
-					</div>
-					<!-- end folio-item -->
-
-					<div class="brick folio-item">
-						<div class="item-wrap animate-this" data-src="images/portfolio/gallery/g-salad.jpg" data-sub-html="#06">
-							<a href="#" class="overlay">
-								<img src="images/portfolio/salad.jpg" alt="Salad">
+								<img src="images/portfolio/salad.png" alt="Salad">
 								<div class="item-text">
 									<h3 class="folio-title">E-Summit</h3>
 								</div>
 							</a>
-							<a href="https://www.behance.net/" class='details-link' title="details">
+							<a href="#" class='details-link' title="details">
 								<i class="icon-link"></i>
 							</a>
 						</div>
 						<!-- end item-wrap -->
 
 						<div id="06" class='hide'>
-							<h4>Salad</h4>
-							<p>Lorem ipsum Dolor deserunt labore sint officia. Magna et aute enim proident tempor sunt quis nulla voluptate fugiat
+							<h4>E-Summit</h4>
+							<!-- <p>Lorem ipsum Dolor deserunt labore sint officia. Magna et aute enim proident tempor sunt quis nulla voluptate fugiat
 								velit.
-								<a href="www.behance.net">Details</a>
-							</p>
+								<a href="#">Details</a>
+							</p> -->
 						</div>
 					</div>
 					<!-- end folio-item -->
@@ -649,7 +661,7 @@
 						<div id="message-warning"></div>
 		
 						<div id="message-success">
-							<i class="fa fa-check"></i>Your message was sent, thank you!
+							<i class="fab fa-check"></i>Your message was sent, thank you!
 							<br>
 						</div>
 		
@@ -691,7 +703,7 @@
 
 				<div class="row services-content">
 
-					<div class="services-list block-1-3 block-tab-full group">
+					<div class="services-list block-1-2 block-tab-full group">
 
 						<div class="bgrid service-item animate-this">
 
@@ -700,23 +712,25 @@
 									<img src="./images/profile/parth.jpg" alt="Team Image" />
 								</div>
 								<div class="profile-content">
-									<a href="tel:8319829977"><h2 class="title">8319829977</h2>
-</a>
+									<a href="tel:8319829977">
+										<h2 class="title">8319829977</h2>
+									</a>
+									<a href="mailto:cparth@iitk.ac.in">
+										<h2 class="title">cparth@iitk.ac.in</h2>
+									</a>
 									<ul class="social-link">
 										<li>
-											<a href="https://www.facebook.com/parth.chhaparwal.1" class="fa fa-facebook" target="_blank"></a>
+											<a href="https://www.facebook.com/parth.chhaparwal.1" class="fab fa-facebook" target="_blank"></a>
 										</li>
 										<li>
-											<a href="mailto:cparth@iitk.ac.in" class="fa fa-envelope"></a>
-										</li>
-										<li>
-											<a href="https://www.linkedin.com/in/parth-chhaparwal/" class="fa fa-linkedin" target="_blank"></a>
+											<a href="https://www.linkedin.com/in/parth-chhaparwal/" class="fab fa-linkedin" target="_blank"></a>
 										</li>
 									</ul>
 								</div>
 							</div>
-								<h3>Parth Chhaparwal</h3>
-								<h4>Overall <br>Coordinator</h4>
+							<h3>Parth Chhaparwal</h3>
+							<h4>Overall
+								<br>Coordinator</h4>
 
 						</div>
 						<!-- end bgrid -->
@@ -728,57 +742,34 @@
 									<img src="./images/profile/mukund.jpg" alt="Team Image" />
 								</div>
 								<div class="profile-content">
-									<a href="tel:7376304919"><h2 class="title">7376304919</h2>
-</a>
+									<a href="tel:7376304919">
+										<h2 class="title">7376304919</h2>
+									</a>
+									<a href="mailto:mukund@iitk.ac.in">
+										<h2 class="title">mukund@iitk.ac.in</h2>
+									</a>
 									<ul class="social-link">
 										<li>
-											<a href="https://www.facebook.com/mukund.mhshwri" class="fa fa-facebook" target="_blank"></a>
+											<a href="https://www.facebook.com/mukund.mhshwri" class="fab fa-facebook" target="_blank"></a>
 										</li>
 										<li>
-											<a href="mailto:mukund@iitk.ac.in" class="fa fa-envelope"></a>
-										</li>
-										<li>
-											<a href="https://www.linkedin.com/in/mukund-maheshwari-/" class="fa fa-linkedin" target="_blank"></a>
+											<a href="https://www.linkedin.com/in/mukund-maheshwari-/" class="fab fa-linkedin" target="_blank"></a>
 										</li>
 									</ul>
 								</div>
 							</div>
-								<h3>Mukund Maheshwari</h3>
-								<h4>Overall <br>Coordinator</h4>
+							<h3>Mukund Maheshwari</h3>
+							<h4>Overall
+								<br>Coordinator</h4>
 						</div>
 						<!-- end bgrid -->
 
-						<div class="bgrid service-item animate-this">
-
-							<div class="profile-card">
-								<div class="profile-img">
-									<img src="./images/profile/anubhav.jpg" alt="Team Image" />
-								</div>
-								<div class="profile-content">
-									<a href="tel:9026688438"><h2 class="title">9026688438</h2>
-</a>
-									<ul class="social-link">
-										<li>
-											<a href="https://www.facebook.com/anubhav.agarwal.560" class="fa fa-facebook" target="_blank"></a>
-										</li>
-										<li>
-											<a href="mailto:anuagr@iitk.ac.in" class="fa fa-envelope"></a>
-										</li>
-										<li>
-											<a href="https://www.linkedin.com/in/anubhav-agarwal-972b66139" class="fa fa-linkedin" target="_blank"></a>
-										</li>
-									</ul>
-								</div>
-							</div>
-								<h3>Anubhav Agarwal</h3>
-								<h4>Head Corporate<br>Relations	 </h4>
-
-						</div>
-						<!-- end bgrid -->
 					</div>
 					<!-- end services-list -->
 					<br>
 					<div class="services-list block-1-3 block-tab-full group">
+
+
 
 						<div class="bgrid service-item animate-this">
 
@@ -787,23 +778,24 @@
 									<img src="./images/profile/tanay.jpg" alt="Team Image" />
 								</div>
 								<div class="profile-content">
-									<a href="tel:8839097519"><h2 class="title">8839097519</h2>
-</a>
+									<a href="tel:8839097519">
+										<h2 class="title">8839097519</h2>
+									</a>
 									<ul class="social-link">
 										<li>
-											<a href="https://www.facebook.com/tanay.98.anand" class="fa fa-facebook" target="_blank"></a>
+											<a href="https://www.facebook.com/tanay.98.anand" class="fab fa-facebook" target="_blank"></a>
 										</li>
 										<li>
-											<a href="mailto:tanay@iitk.ac.in" class="fa fa-envelope"></a>
+											<a href="mailto:tanay@iitk.ac.in" class="fa icon-mail"></a>
 										</li>
 										<li>
-											<a href="https://www.linkedin.com/in/tanay-anand-66a277141" class="fa fa-linkedin" target="_blank"></a>
+											<a href="https://www.linkedin.com/in/tanay-anand-66a277141" class="fab fa-linkedin" target="_blank"></a>
 										</li>
 									</ul>
 								</div>
 							</div>
-								<h3>Tanay Anand</h3>
-								<h4>Head Startup Development</h4>
+							<h3>Tanay Anand</h3>
+							<h4>Head Startup Development</h4>
 
 						</div>
 						<!-- end bgrid -->
@@ -815,18 +807,19 @@
 									<img src="./images/profile/amulya.jpg" alt="Team Image" />
 								</div>
 								<div class="profile-content">
-									<a href="tel:8839163899"><h2 class="title">8839163899</h2>
-</a>
+									<a href="tel:8839163899">
+										<h2 class="title">8839163899</h2>
+									</a>
 									</h2>
 									<ul class="social-link">
 										<li>
-											<a href="https://www.facebook.com/amulya.ambare" class="fa fa-facebook" target="_blank"></a>
+											<a href="https://www.facebook.com/amulya.ambare" class="fab fa-facebook" target="_blank"></a>
 										</li>
 										<li>
-											<a href="mailto:amulya@iitk.ac.in" class="fa fa-envelope"></a>
+											<a href="mailto:amulya@iitk.ac.in" class="fa icon-mail"></a>
 										</li>
 										<li>
-											<a href="#" class="fa fa-linkedin"></a>
+											<a href="#" class="fab fa-linkedin"></a>
 										</li>
 									</ul>
 								</div>
@@ -843,26 +836,27 @@
 									<img src="./images/profile/ashish.jpg" alt="Team Image" />
 								</div>
 								<div class="profile-content">
-									<a href="tel:7985059334"><h2 class="title">7985059334</h2>
-</a>
+									<a href="tel:7985059334">
+										<h2 class="title">7985059334</h2>
+									</a>
 									<ul class="social-link">
 										<li>
-											<a href="https://www.facebook.com/ashish.patel.0165" class="fa fa-facebook" target="_blank"></a>
+											<a href="https://www.facebook.com/ashish.patel.0165" class="fab fa-facebook" target="_blank"></a>
 										</li>
 										<li>
-											<a href="mailto:ashishkp@iitk.ac.in" class="fa fa-envelope"></a>
+											<a href="mailto:ashishkp@iitk.ac.in" class="fa icon-mail"></a>
 										</li>
 										<li>
-											<a href="https://linkedin.com/in/ashish-patel-93b28a160/" class="fa fa-linkedin" target="_blank"></a>
+											<a href="https://linkedin.com/in/ashish-patel-93b28a160/" class="fab fa-linkedin" target="_blank"></a>
 										</li>
-									< target="_blank"/ul>
 								</div>
 							</div>
-								<h3>Ashish Patel</h3>
-								<h4>Head Design</h4>
+							<h3>Ashish Patel</h3>
+							<h4>Head Design</h4>
 
 						</div>
 						<!-- end bgrid -->
+
 					</div>
 					<br>
 					<div class="services-list block-1-3 block-tab-full group">
@@ -871,27 +865,58 @@
 
 							<div class="profile-card">
 								<div class="profile-img">
-									<img src="./images/profile/paras.jpg" alt="Team Image" />
+									<img src="./images/profile/anubhav.jpg" alt="Team Image" />
 								</div>
 								<div class="profile-content">
-									<a href="tel:7318018952"><h2 class="title">7318018952</h2>
-</a>
+									<a href="tel:9026688438">
+										<h2 class="title">9026688438</h2>
+									</a>
 									<ul class="social-link">
 										<li>
-											<a href="https://www.facebook.com/aditya.parasramka" class="fa fa-facebook" target="_blank"></a>
+											<a href="https://www.facebook.com/anubhav.agarwal.560" class="fab fa-facebook" target="_blank"></a>
 										</li>
 										<li>
-											<a href="mailto:paradi@iitk.ac.in" class="fa fa-envelope"></a>
+											<a href="mailto:anuagr@iitk.ac.in" class="fa icon-mail"></a>
 										</li>
 										<li>
-											<a href="#" class="fa fa-linkedin"></a>
+											<a href="https://www.linkedin.com/in/anubhav-agarwal-972b66139" class="fab fa-linkedin" target="_blank"></a>
 										</li>
 									</ul>
 								</div>
 							</div>
-								<h3>Aditya Parasramka</h3>
-								<h4>Head <br>Media & Publicity</h4>
- target="_blank"
+							<h3>Anubhav Agarwal</h3>
+							<h4>Head Corporate
+								<br>Relations </h4>
+
+						</div>
+						<!-- end bgrid -->
+
+						<div class="bgrid service-item animate-this">
+
+							<div class="profile-card">
+								<div class="profile-img">
+									<img src="./images/profile/paras.jpg" alt="Team Image" />
+								</div>
+								<div class="profile-content">
+									<a href="tel:7318018952">
+										<h2 class="title">7318018952</h2>
+									</a>
+									<ul class="social-link">
+										<li>
+											<a href="https://www.facebook.com/aditya.parasramka" class="fab fa-facebook" target="_blank"></a>
+										</li>
+										<li>
+											<a href="mailto:paradi@iitk.ac.in" class="fa icon-mail"></a>
+										</li>
+										<li>
+											<a href="#" class="fab fa-linkedin"></a>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<h3>Aditya Parasramka</h3>
+							<h4>Head
+								<br>Media & Publicity</h4>
 						</div>
 						<!-- end bgrid -->
 
@@ -902,25 +927,30 @@
 									<img src="./images/profile/nivedita.jpg" alt="Team Image" />
 								</div>
 								<div class="profile-content">
-									<a href="tel:7318019131"><h2 class="title">7318019131</h2>
-</a>
+									<a href="tel:7318019131">
+										<h2 class="title">7318019131</h2>
+									</a>
 									<ul class="social-link">
 										<li>
-											<a href="https://www.facebook.com/nivedita.shukla.921" class="fa fa-facebook" target="_blank"></a>
+											<a href="https://www.facebook.com/nivedita.shukla.921" class="fab fa-facebook" target="_blank"></a>
 										</li>
 										<li>
-											<a href="mailto:nivedita@iitk.ac.in" class="fa fa-envelope"></a>
+											<a href="mailto:nivedita@iitk.ac.in" class="fa icon-mail"></a>
 										</li>
 										<li>
-											<a href="#" class="fa fa-linkedin"></a>
+											<a href="#" class="fab fa-linkedin"></a>
 										</li>
 									</ul>
 								</div>
 							</div>
-								<h3>Nivedita Shukla</h3>
-								<h4>Head <br>Media & Publicity</h4>
+							<h3>Nivedita Shukla</h3>
+							<h4>Head
+								<br>Media & Publicity</h4>
 
 						</div>
+					</div>
+					<br>
+					<div class="services-list block-1-3 block-tab-full group">
 						<div class="bgrid service-item animate-this">
 
 							<div class="profile-card">
@@ -928,26 +958,83 @@
 									<img src="./images/profile/sourabh.jpg" alt="Team Image" />
 								</div>
 								<div class="profile-content">
-									<a href="tel:8209354486"><h2 class="title">8209354486</h2>
-</a>
+									<a href="tel:8209354486">
+										<h2 class="title">8209354486</h2>
+									</a>
 									<ul class="social-link">
 										<li>
-											<a href="https://www.facebook.com/ssrbsoni" class="fa fa-facebook" target="_blank"></a>
+											<a href="https://www.facebook.com/ssrbsoni" class="fab fa-facebook" target="_blank"></a>
 										</li>
 										<li>
-											<a href="mailto:sourabhs@iitk.ac.in" class="fa fa-envelope"></a>
+											<a href="mailto:sourabhs@iitk.ac.in" class="fa icon-mail"></a>
 										</li>
 										<li>
-											<a href="https://www.linkedin.com/in/ssrbsoni/" class="fa fa-linkedin" target="_blank"></a>
+											<a href="https://www.linkedin.com/in/ssrbsoni/" class="fab fa-linkedin" target="_blank"></a>
 										</li>
 									</ul>
 								</div>
 							</div>
-								<h3>Sourabh Soni</h3>
-								<h4>Head SIP</h4>
+							<h3>Sourabh Soni</h3>
+							<h4>Head SIP</h4>
 						</div>
 						<!-- end bgrid -->
 
+						<div class="bgrid service-item animate-this">
+
+							<div class="profile-card">
+								<div class="profile-img">
+									<img src="./images/profile/viswadeep.jpg" alt="Team Image" />
+								</div>
+								<div class="profile-content">
+									<a href="tel:7016501039">
+										<h2 class="title">7016501039</h2>
+									</a>
+									<ul class="social-link">
+										<li>
+											<a href="https://www.facebook.com/viswadeep.ojha" class="fab fa-facebook" target="_blank"></a>
+										</li>
+										<li>
+											<a href="mailto:visojha@iitk.ac.in" class="fa icon-mail"> </a>
+										</li>
+										<li>
+											<a href="https://www.linkedin.com/in/viswadeep-ojha/" class="fab fa-linkedin" target="_blank"></a>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<h3>Viswadeep Ojha</h3>
+							<h4>Head SIP</h4>
+
+						</div>
+
+						<!-- end bgrid -->
+						<div class="bgrid service-item animate-this">
+
+							<div class="profile-card">
+								<div class="profile-img">
+									<img src="./images/profile/pawan.jpg" alt="Team Image" />
+								</div>
+								<div class="profile-content">
+									<a href="tel:8318114996">
+										<h2 class="title">8318114996</h2>
+									</a>
+									<ul class="social-link">
+										<li>
+											<a href="https://www.facebook.com/profile.php?id=100012299893436" class="fab fa-facebook" target="_blank"></a>
+										</li>
+										<li>
+											<a href="mailto:pakumar@iitk.ac.in" class="fa icon-mail"></a>
+										</li>
+										<li>
+											<a href="https://www.linkedin.com/in/pawan-kumar-58534a140/" class="fab fa-linkedin" target="_blank"></a>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<h3>Pawan Kumar</h3>
+							<h4>Head Finance</h4>
+
+						</div>
 						<!-- end bgrid -->
 					</div>
 					<br>
@@ -960,24 +1047,25 @@
 									<img src="./images/profile/shivang.jpg" alt="Team Image" />
 								</div>
 								<div class="profile-content">
-									<a href="tel:7976886760"><h2 class="title">7976886760</h2>
-</a>
+									<a href="tel:7976886760">
+										<h2 class="title">7976886760</h2>
+									</a>
 									</h2>
 									<ul class="social-link">
 										<li>
-											<a href="https://www.facebook.com/shivang.goyal2" class="fa fa-facebook" target="_blank"></a>
+											<a href="https://www.facebook.com/shivang.goyal2" class="fab fa-facebook" target="_blank"></a>
 										</li>
 										<li>
-											<a href="mailto:gshivang@iitk.ac.in" class="fa fa-envelope"></a>
+											<a href="mailto:gshivang@iitk.ac.in" class="fa icon-mail"></a>
 										</li>
 										<li>
-											<a href="https://www.linkedin.com/in/shivanggoyal/" class="fa fa-linkedin" target="_blank"></a>
+											<a href="https://www.linkedin.com/in/shivanggoyal/" class="fab fa-linkedin" target="_blank"></a>
 										</li>
 									</ul>
 								</div>
 							</div>
-								<h3>Shivang Goyal</h3>
-								<h4>Head Events</h4>
+							<h3>Shivang Goyal</h3>
+							<h4>Head Events</h4>
 
 						</div>
 						<!-- end bgrid -->
@@ -989,24 +1077,25 @@
 									<img src="./images/profile/chandna.jpg" alt="Team Image" />
 								</div>
 								<div class="profile-content">
-									<a href="tel:8209095911"><h2 class="title">8209095911</h2>
-</a>
+									<a href="tel:8209095911">
+										<h2 class="title">8209095911</h2>
+									</a>
 									</h2>
 									<ul class="social-link">
 										<li>
-											<a href="https://www.facebook.com/rahulness" class="fa fa-facebook" target="_blank"></a>
+											<a href="https://www.facebook.com/rahulness" class="fab fa-facebook" target="_blank"></a>
 										</li>
 										<li>
-											<a href="mailto:rahulcha@iitk.ac.in" class="fa fa-envelope"></a>
+											<a href="mailto:rahulcha@iitk.ac.in" class="fa icon-mail"></a>
 										</li>
 										<li>
-											<a href="#" class="fa fa-linkedin"></a>
+											<a href="#" class="fab fa-linkedin"></a>
 										</li>
 									</ul>
 								</div>
 							</div>
-								<h3>Rahul Chandna</h3>
-								<h4>Head Events</h4>
+							<h3>Rahul Chandna</h3>
+							<h4>Head Events</h4>
 						</div>
 						<!-- end bgrid -->
 
@@ -1017,23 +1106,24 @@
 									<img src="./images/profile/vivek.jpg" alt="Team Image" />
 								</div>
 								<div class="profile-content">
-									<a href="tel:7318020843"><h2 class="title">7318020843</h2>
-</a>
+									<a href="tel:7318020843">
+										<h2 class="title">7318020843</h2>
+									</a>
 									<ul class="social-link">
 										<li>
-											<a href="https://www.facebook.com/Vjdjain" class="fa fa-facebook" target="_blank"></a>
+											<a href="https://www.facebook.com/Vjdjain" class="fab fa-facebook" target="_blank"></a>
 										</li>
 										<li>
-											<a href="mailto:vjdviv@iitk.ac.in" class="fa fa-envelope"></a>
+											<a href="mailto:vjdviv@iitk.ac.in" class="fa icon-mail"></a>
 										</li>
 										<li>
-											<a href="https://www.linkedin.com/in/vivekkjainn/" class="fa fa-linkedin" target="_blank"></a>
+											<a href="https://www.linkedin.com/in/vivekkjainn/" class="fab fa-linkedin" target="_blank"></a>
 										</li>
 									</ul>
 								</div>
 							</div>
-								<h3>Vivek Jain</h3>
-								<h4>Head Events</h4>
+							<h3>Vivek Jain</h3>
+							<h4>Head Events</h4>
 
 						</div>
 						<!-- end bgrid -->
@@ -1048,24 +1138,26 @@
 									<img src="./images/profile/bahul.jpg" alt="Team Image" />
 								</div>
 								<div class="profile-content">
-									<a href="tel:8853144135"><h2 class="title">8853144135</h2>
-</a>
+									<a href="tel:8853144135">
+										<h2 class="title">8853144135</h2>
+									</a>
 									</h2>
 									<ul class="social-link">
 										<li>
-											<a href="https://m.facebook.com/bahul.dandona.5?ref=bookmarks" class="fa fa-facebook" target="_blank"></a>
+											<a href="https://m.facebook.com/bahul.dandona.5?ref=bookmarks" class="fab fa-facebook" target="_blank"></a>
 										</li>
 										<li>
-											<a href="mailto:bahul@iitk.ac.in" class="fa fa-envelope"></a>
+											<a href="mailto:bahul@iitk.ac.in" class="fa icon-mail"></a>
 										</li>
 										<li>
-											<a href="https://www.linkedin.com/in/bahuldandona" class="fa fa-linkedin" target="_blank"></a>
+											<a href="https://www.linkedin.com/in/bahuldandona" class="fab fa-linkedin" target="_blank"></a>
 										</li>
 									</ul>
 								</div>
 							</div>
 							<h3>Bahul Dandona</h3>
-								<h4>Head <br>Business Development</h4>
+							<h4>Head
+								<br>Business Development</h4>
 
 						</div>
 						<!-- end bgrid -->
@@ -1077,23 +1169,24 @@
 									<img src="./images/profile/aman.jpg" alt="Team Image" />
 								</div>
 								<div class="profile-content">
-									<a href="tel:8853144135"><h2 class="title">8853144135</h2>
-</a>
+									<a href="tel:8853144135">
+										<h2 class="title">8853144135</h2>
+									</a>
 									<ul class="social-link">
 										<li>
-											<a href="https://www.facebook.com/profile.php?id=100008032784302" class="fa fa-facebook" target="_blank"></a>
+											<a href="https://www.facebook.com/profile.php?id=100008032784302" class="fab fa-facebook" target="_blank"></a>
 										</li>
 										<li>
-											<a href="mailto:amangpt@iitk.ac.in" class="fa fa-envelope"></a>
+											<a href="mailto:amangpt@iitk.ac.in" class="fa icon-mail"></a>
 										</li>
 										<li>
-											<a href="https://www.linkedin.com/in/aman-gupta-a2048a140/" class="fa fa-linkedin" target="_blank"></a>
+											<a href="https://www.linkedin.com/in/aman-gupta-a2048a140/" class="fab fa-linkedin" target="_blank"></a>
 										</li>
 									</ul>
 								</div>
 							</div>
-								<h3>Aman Gupta</h3>
-								<h4>Head Marketing</h4>
+							<h3>Aman Gupta</h3>
+							<h4>Head Marketing</h4>
 						</div>
 						<!-- end bgrid -->
 
@@ -1104,24 +1197,25 @@
 									<img src="./images/profile/vedang.jpg" alt="Team Image" />
 								</div>
 								<div class="profile-content">
-									<a href="tel:7080544383"><h2 class="title">7080544383</h2>
-</a>
+									<a href="tel:7080544383">
+										<h2 class="title">7080544383</h2>
+									</a>
 									</h2>
 									<ul class="social-link">
 										<li>
-											<a href="https://www.facebook.com/vedangvatsa" class="fa fa-facebook" target="_blank"></a>
+											<a href="https://www.facebook.com/vedangvatsa" class="fab fa-facebook" target="_blank"></a>
 										</li>
 										<li>
-											<a href="mailto:vedang@iitk.ac.in" class="fa fa-envelope"></a>
+											<a href="mailto:vedang@iitk.ac.in" class="fa icon-mail"></a>
 										</li>
 										<li>
-											<a href="https://www.linkedin.com/in/vedangvatsa/" class="fa fa-linkedin" target="_blank"></a>
+											<a href="https://www.linkedin.com/in/vedangvatsa/" class="fab fa-linkedin" target="_blank"></a>
 										</li>
 									</ul>
 								</div>
 							</div>
-								<h3>Vedang R. Vatsa</h3>
-								<h4>Head Marketing</h4>
+							<h3>Vedang Vatsa</h3>
+							<h4>Head Marketing</h4>
 
 						</div>
 						<!-- end bgrid -->
@@ -1136,24 +1230,27 @@
 									<img src="./images/profile/mayank.jpg" alt="Team Image" />
 								</div>
 								<div class="profile-content">
-									<a href="tel:9461240034"><h2 class="title">9461240034</h2>
-</a>
+									<a href="tel:9461240034">
+										<h2 class="title">9461240034</h2>
+									</a>
 									</h2>
 									<ul class="social-link">
 										<li>
-											<a href="https://www.facebook.com/mayank.techie" class="fa fa-facebook" target="_blank"></a>
+											<a href="https://www.facebook.com/mayank.techie" class="fab fa-facebook" target="_blank"></a>
 										</li>
 										<li>
-											<a href="mailto:msharma@iitk.ac.in" class="fa fa-envelope"></a>
+											<a href="mailto:msharma@iitk.ac.in" class="fa icon-mail"></a>
 										</li>
 										<li>
-											<a href="https://www.linkedin.com/in/mayanksha/" class="fa fa-linkedin" target="_blank"></a>
+											<a href="https://www.linkedin.com/in/mayanksha/" class="fab fa-linkedin" target="_blank"></a>
 										</li>
 									</ul>
+									
+									<!-- end bgrid -->
 								</div>
 							</div>
-								<h3>Mayank Sharma</h3>
-								<h4>Head Web</h4>
+							<h3>Mayank Sharma</h3>
+							<h4>Head Web</h4>
 
 						</div>
 						<!-- end bgrid -->
@@ -1165,88 +1262,42 @@
 									<img src="./images/profile/utkarsh.jpg" alt="Team Image" />
 								</div>
 								<div class="profile-content">
-									<a href="tel:7000014167"><h2 class="title">7000014167</h2>
-</a>
+									<a href="tel:7318018609">
+										<h2 class="title">7318018609</h2>
+									</a>
 									<ul class="social-link">
 										<li>
-											<a href="https://facebook.com/utkarsh.barsaiyan" class="fa fa-facebook"></a>
-										</li>
-										< target="_blank"li>
-											<a href="mailto:ubarsaiyan@iitk.ac.in" class="fa fa-envelope"></a>
+											<a href="https://facebook.com/utkarsh.barsaiyan" class="fab fa-facebook"></a>
 										</li>
 										<li>
-											<a href="https://www.linkedin.com/in/utkarsh-barsaiyan-774447143" class="fa fa-linkedin" target="_blank"></a>
+											<a href="mailto:butkarsh@iitk.ac.in" class="fa icon-mail"></a>
+										</li>
+										<li>
+											<a href="https://www.linkedin.com/in/utkarsh-barsaiyan-774447143" class="fab fa-linkedin" target="_blank"></a>
 										</li>
 									</ul>
 								</div>
 							</div>
-								<h3>Utkarsh Barsaiyan</h3>
-								<h4>Head Web</h4>
+							<h3>Utkarsh Barsaiyan</h3>
+							<h4>Head Web</h4>
 						</div>
 						<!-- end bgrid -->
 
-						<div class="bgrid service-item animate-this">
 
-							<div class="profile-card">
-								<div class="profile-img">
-									<img src="./images/profile/pawan.jpg" alt="Team Image" />
-								</div>
-								<div class="profile-content">
-									<a href="tel:8318114996"><h2 class="title">8318114996</h2>
-</a>
-									<ul class="social-link">
-										<li>
-											<a href="https://www.facebook.com/profile.php?id=100012299893436" class="fa fa-facebook" target="_blank"></a>
-										</li>
-										<li>
-											<a href="mailto:pakumar@iitk.ac.in" class="fa fa-envelope"></a>
-										</li>
-										<li>
-											<a href="https://www.linkedin.com/in/pawan-kumar-58534a140/" class="fa fa-linkedin" target="_blank"></a>
-										</li>
-									</ul>
-								</div>
-							</div>
-								<h3>Pawan Kumar</h3>
-								<h4>Head Finance</h4>
-
-						</div>
-						<!-- end bgrid -->
 					</div>
 					<div class="services-list block-1-3 block-tab-full group">
-						<div class="bgrid service-item animate-this" >
 
-							<div class="profile-card">
-								<div class="profile-img">
-									<img src="./images/profile/viswadeep.jpg" alt="Team Image" />
-								</div>
-								<div class="profile-content">
-									<a href="tel:7016501039"><h2 class="title">7016501039</h2>
-</a>
-									<ul class="social-link">
-										<li>
-											<a href="https://www.facebook.com/viswadeep.ojha" class="fa fa-facebook" target="_blank"></a>
-										</li>
-										<li>
-											<a href="mailto:visojha@iitk.ac.in" class="fa fa-envelope"> </a>
-										</li>
-										<li>
-											<a href="https://www.linkedin.com/in/viswadeep-ojha/" class="fa fa-linkedin" target="_blank"></a>
-										</li>
-									</ul>
-								</div>
-							</div>
-								<h3>Viswadeep Ojha</h3>
-								<h4>Head SIP</h4>
-
-						</div>
+					</div>
 				</div>
 			</div>
-		</div>
-		<!-- end section-intro -->
+			<!-- end section-intro -->
 
 	</section>
 	<!-- end contact -->
+
+
+
+
 
 
 	<!-- footer ================================================== -->
@@ -1336,9 +1387,10 @@
 
 		<div id="go-top">
 			<a class="smoothscroll" title="Back to Top" href="#top">
-				<i class="fa fa-long-arrow-up" aria-hidden="true"></i>
+				<i class="icon-arrow-up" aria-hidden="true"></i>
 			</a>
 		</div>
+
 	</footer>
 
 	<div id="preloader">

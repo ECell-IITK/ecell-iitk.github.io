@@ -21,15 +21,14 @@
  *
  * =================================================================== */
 
-
 /* ===================================================================
  *  01. webfonts and iconfonts - (_document-setup)
  *
  * ------------------------------------------------------------------- */
+
 @import url("font-awesome/css/font-awesome.min.css");
 @import url("micons/micons.css");
 @import url("fonts.css");
-
 
 /* ===================================================================
  *  02. base style overrides - (_document-setup)
@@ -54,7 +53,8 @@ html {
   }
 }
 
-html, body {
+html,
+body {
   height: 100%;
 }
 
@@ -71,7 +71,8 @@ body {
 /* ------------------------------------------------------------------- 
  * links - (_document-setup) 
  * ------------------------------------------------------------------- */
-a, a:visited {
+a,
+a:visited {
   color: #07617d;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
@@ -80,17 +81,27 @@ a, a:visited {
   transition: all 0.3s ease-in-out;
 }
 
-a:hover, a:focus {
+a:hover,
+a:focus {
   color: #000000;
 }
-
 
 /* ===================================================================
  *  03. typography & general theme styles - (_document-setup.scss) 
  *
  * ------------------------------------------------------------------- */
-h1, h2, h3, h4, h5, h6,
-.h01, .h02, .h03, .h04, .h05, .h06 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h01,
+.h02,
+.h03,
+.h04,
+.h05,
+.h06 {
   font-family: "montserrat-bold", sans-serif;
   color: #151515;
   font-style: normal;
@@ -98,53 +109,66 @@ h1, h2, h3, h4, h5, h6,
   margin-bottom: 2.1rem;
 }
 
-h3, .h03, h4, .h04 {
+h3,
+.h03,
+h4,
+.h04 {
   margin-bottom: 1.8rem;
 }
 
-h5, .h05, h6, .h06 {
+h5,
+.h05,
+h6,
+.h06 {
   margin-bottom: 1.2rem;
 }
 
-h1, .h01 {
+h1,
+.h01 {
   font-size: 3.1rem;
   line-height: 1.35;
-  letter-spacing: -.1rem;
+  letter-spacing: -0.1rem;
 }
 @media only screen and (max-width: 600px) {
-  h1, .h01 {
+  h1,
+  .h01 {
     font-size: 2.6rem;
-    letter-spacing: -.07rem;
+    letter-spacing: -0.07rem;
   }
 }
 
-h2, .h02 {
+h2,
+.h02 {
   font-size: 2.4rem;
   line-height: 1.25;
 }
 
-h3, .h03 {
+h3,
+.h03 {
   font-size: 2rem;
   line-height: 1.5;
 }
 
-h4, .h04 {
+h4,
+.h04 {
   font-size: 1.7rem;
   line-height: 1.76;
 }
 
-h5, .h05 {
+h5,
+.h05 {
   font-size: 1.4rem;
   line-height: 1.7;
   text-transform: uppercase;
-  letter-spacing: .2rem;
+  letter-spacing: 0.2rem;
 }
 
-h6, .h06 {
+h6,
+.h06 {
   font-size: 1.3rem;
   line-height: 1.85;
   text-transform: uppercase;
-  letter-spacing: .2rem;
+  letter-spacing: 0.2rem;
 }
 
 p img {
@@ -164,18 +188,23 @@ p.lead {
   }
 }
 
-em, i, strong, b {
+em,
+i,
+strong,
+b {
   font-size: 1.6rem;
   line-height: 3rem;
   font-style: normal;
   font-weight: normal;
 }
 
-em, i {
+em,
+i {
   font-family: "librebaskerville-italic", serif;
 }
 
-strong, b {
+strong,
+b {
   font-family: "librebaskerville-bold", serif;
 }
 
@@ -231,26 +260,30 @@ abbr {
   font-family: "librebaskerville-bold", serif;
   font-variant: small-caps;
   text-transform: lowercase;
-  letter-spacing: .05rem;
+  letter-spacing: 0.05rem;
   color: #4f4f4f;
 }
 
-var, kbd, samp, code, pre {
+var,
+kbd,
+samp,
+code,
+pre {
   font-family: Consolas, "Andale Mono", Courier, "Courier New", monospace;
 }
 
 pre {
   padding: 2.4rem 3rem 3rem;
-  background: #F1F1F1;
+  background: #f1f1f1;
 }
 
 code {
   font-size: 1.4rem;
-  margin: 0 .2rem;
-  padding: .3rem .6rem;
+  margin: 0 0.2rem;
+  padding: 0.3rem 0.6rem;
   white-space: nowrap;
-  background: #F1F1F1;
-  border: 1px solid #E1E1E1;
+  background: #f1f1f1;
+  border: 1px solid #e1e1e1;
   border-radius: 3px;
 }
 
@@ -270,13 +303,14 @@ del {
   text-decoration: line-through;
 }
 
-abbr[title], dfn[title] {
+abbr[title],
+dfn[title] {
   border-bottom: 1px dotted;
   cursor: help;
 }
 
 mark {
-  background: #FFF49B;
+  background: #fff49b;
   color: #000;
 }
 
@@ -303,23 +337,26 @@ li {
   display: list-item;
 }
 
-ol, ul {
+ol,
+ul {
   margin-left: 1.7rem;
 }
 
 ul li {
-  padding-left: .4rem;
+  padding-left: 0.4rem;
 }
 
-ul ul, ul ol,
-ol ol, ol ul {
-  margin: .6rem 0 .6rem 1.7rem;
+ul ul,
+ul ol,
+ol ol,
+ol ul {
+  margin: 0.6rem 0 0.6rem 1.7rem;
 }
 
 ul.disc li {
   display: list-item;
   list-style: none;
-  padding: 0 0 0 .8rem;
+  padding: 0 0 0 0.8rem;
   position: relative;
 }
 ul.disc li::before {
@@ -347,7 +384,8 @@ dd {
 /* ------------------------------------------------------------------- 
  * Spacing - (_document-setup)  
  * ------------------------------------------------------------------- */
-button, .button {
+button,
+.button {
   margin-bottom: 1.2rem;
 }
 
@@ -424,7 +462,7 @@ th,
 td {
   padding: 1.5rem 3rem;
   text-align: left;
-  border-bottom: 1px solid #E8E8E8;
+  border-bottom: 1px solid #e8e8e8;
 }
 
 th {
@@ -476,7 +514,6 @@ td:last-child {
   height: 6px;
 }
 
-
 /* ===================================================================
  *  04. Preloader
  *
@@ -487,13 +524,14 @@ td:last-child {
   left: 0;
   right: 0;
   bottom: 0;
-  background: #0F1215;
+  background: #0f1215;
   z-index: 800;
   height: 100%;
   width: 100%;
 }
 
-.no-js #preloader, .oldie #preloader {
+.no-js #preloader,
+.oldie #preloader {
   display: none;
 }
 
@@ -506,10 +544,10 @@ td:last-child {
   margin-left: -30px;
   margin-top: -30px;
   padding: 0;
-  background-color: #f9a828;
+  background-color: #ffa81d;
   border-radius: 100%;
-  -webkit-animation: sk-scaleout 1.0s infinite ease-in-out;
-  animation: sk-scaleout 1.0s infinite ease-in-out;
+  -webkit-animation: sk-scaleout 1s infinite ease-in-out;
+  animation: sk-scaleout 1s infinite ease-in-out;
 }
 
 @-webkit-keyframes sk-scaleout {
@@ -532,7 +570,6 @@ td:last-child {
     opacity: 0;
   }
 }
-
 
 /* ===================================================================
  *  05. forms - (_forms.scss)
@@ -581,7 +618,7 @@ select {
   -o-appearance: none;
   appearance: none;
   text-indent: 0.01px;
-  text-overflow: '';
+  text-overflow: "";
   margin: 0;
   line-height: 3rem;
   vertical-align: middle;
@@ -594,8 +631,8 @@ select {
   display: none;
 }
 .ss-custom-select::after {
-  content: '\f0d7';
-  font-family: 'FontAwesome';
+  content: "\f0d7";
+  font-family: "FontAwesome";
   position: absolute;
   top: 50%;
   right: 1.5rem;
@@ -631,10 +668,11 @@ select:focus {
   color: #000000;
 }
 
-label, legend {
+label,
+legend {
   font-family: "montserrat-bold", sans-serif;
   font-size: 1.4rem;
-  margin-bottom: .6rem;
+  margin-bottom: 0.6rem;
   color: #020202;
   display: block;
 }
@@ -655,7 +693,7 @@ label > input[type="checkbox"],
 label > input[type="radio"] {
   margin: 0;
   position: relative;
-  top: .15rem;
+  top: 0.15rem;
 }
 
 /* ------------------------------------------------------------------- 
@@ -688,11 +726,9 @@ label > input[type="radio"] {
  * ------------------------------------------------------------------- */
 input:-webkit-autofill,
 input:-webkit-autofill:hover,
-input:-webkit-autofill:focus
-input:-webkit-autofill,
+input:-webkit-autofill:focus input:-webkit-autofill,
 textarea:-webkit-autofill,
-textarea:-webkit-autofill:hover
-textarea:-webkit-autofill:focus,
+textarea:-webkit-autofill:hover textarea:-webkit-autofill:focus,
 select:-webkit-autofill,
 select:-webkit-autofill:hover,
 select:-webkit-autofill:focus {
@@ -700,7 +736,6 @@ select:-webkit-autofill:focus {
   -webkit-text-fill-color: #fabc5a;
   transition: background-color 5000s ease-in-out 0s;
 }
-
 
 /* ===================================================================
  *  06. buttons - (_button-essentials.scss)
@@ -716,12 +751,12 @@ input[type="button"] {
   font-family: "montserrat-bold", sans-serif;
   font-size: 1.4rem;
   text-transform: uppercase;
-  letter-spacing: .3rem;
+  letter-spacing: 0.3rem;
   height: 5.4rem;
   line-height: 5.4rem;
   padding: 0 3rem;
-  margin: 0 .3rem 1.2rem 0;
-  background: #A5A5A5;
+  margin: 0 0.3rem 1.2rem 0;
+  background: #a5a5a5;
   color: #222222;
   text-decoration: none;
   cursor: pointer;
@@ -758,7 +793,7 @@ input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
   background: #151515;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .button.button-primary:hover,
@@ -775,38 +810,45 @@ input[type="button"].button-primary:focus {
   background: #030303;
 }
 
-button.full-width, .button.full-width {
+button.full-width,
+.button.full-width {
   width: 100%;
   margin-right: 0;
 }
 
-button.medium, .button.medium {
+button.medium,
+.button.medium {
   height: 5.7rem !important;
   line-height: 5.7rem !important;
   padding: 0 1.8rem !important;
 }
 
-button.large, .button.large {
+button.large,
+.button.large {
   height: 6rem !important;
   line-height: 6rem !important;
   padding: 0rem 3rem !important;
 }
 
-button.stroke, .button.stroke {
+button.stroke,
+.button.stroke {
   background: transparent !important;
   border: 3px solid #313131;
   line-height: 4.8rem;
 }
 
-button.stroke.medium, .button.stroke.medium {
+button.stroke.medium,
+.button.stroke.medium {
   line-height: 5.1rem !important;
 }
 
-button.stroke.large, .button.stroke.large {
+button.stroke.large,
+.button.stroke.large {
   line-height: 5.4rem !important;
 }
 
-button.stroke:hover, .button.stroke:hover {
+button.stroke:hover,
+.button.stroke:hover {
   border: 3px solid #f9a828;
   color: #f9a828;
 }
@@ -816,7 +858,6 @@ input::-moz-focus-inner {
   border: 0;
   padding: 0;
 }
-
 
 /* ===================================================================
  *  07. other components - (_others.scss)
@@ -870,7 +911,7 @@ input::-moz-focus-inner {
 .drop-cap:first-letter {
   float: left;
   margin: 0;
-  padding: 1.5rem .6rem 0 0;
+  padding: 1.5rem 0.6rem 0 0;
   font-size: 8.4rem;
   font-family: "montserrat-bold", sans-serif;
   line-height: 6rem;
@@ -881,7 +922,8 @@ input::-moz-focus-inner {
 
 /* line definition style 
  * ----------------------------------------------- */
-.lining dt, .lining dd {
+.lining dt,
+.lining dd {
   display: inline;
   margin: 0;
 }
@@ -916,7 +958,7 @@ input::-moz-focus-inner {
   counter-increment: definitions;
 }
 .dictionary-style dd:before {
-  content: counter(definitions,decimal) ". ";
+  content: counter(definitions, decimal) ". ";
 }
 
 /** 
@@ -935,7 +977,8 @@ input::-moz-focus-inner {
   position: relative;
   padding: 2.1rem 3rem 2.1rem 0px;
 }
-.pull-quote:before, .pull-quote:after {
+.pull-quote:before,
+.pull-quote:after {
   height: 1em;
   position: absolute;
   font-size: 10rem;
@@ -948,7 +991,7 @@ input::-moz-focus-inner {
   left: 0;
 }
 .pull-quote:after {
-  content: '\201D';
+  content: "\201D";
   bottom: -33px;
   right: 0;
 }
@@ -998,7 +1041,7 @@ input::-moz-focus-inner {
 }
 .stats-tabs li a em {
   display: block;
-  margin: .6rem 0 0 0;
+  margin: 0.6rem 0 0 0;
   font-size: 1.4rem;
   font-family: "montserrat-regular", sans-serif;
   color: #4f4f4f;
@@ -1013,7 +1056,7 @@ input::-moz-focus-inner {
   margin: 6rem 0 3rem;
 }
 .skill-bars li {
-  height: .6rem;
+  height: 0.6rem;
   background: #a1a1a1;
   width: 100%;
   margin-bottom: 6rem;
@@ -1027,7 +1070,7 @@ input::-moz-focus-inner {
   font-family: "montserrat-bold", sans-serif;
   color: #313131;
   text-transform: uppercase;
-  letter-spacing: .2rem;
+  letter-spacing: 0.2rem;
   font-size: 1.5rem;
   line-height: 2.4rem;
 }
@@ -1046,7 +1089,7 @@ input::-moz-focus-inner {
   font-size: 1.1rem;
   line-height: 1;
   background: #313131;
-  padding: .6rem .6rem;
+  padding: 0.6rem 0.6rem;
   border-radius: 3px;
 }
 .skill-bars li .progress span::after {
@@ -1141,7 +1184,7 @@ input::-moz-focus-inner {
   line-height: 1.667;
   color: rgba(242, 242, 242, 0.5);
   text-transform: uppercase;
-  letter-spacing: .3rem;
+  letter-spacing: 0.3rem;
   margin-bottom: 1.2rem;
 }
 .section-intro .lead {
@@ -1207,17 +1250,16 @@ input::-moz-focus-inner {
   max-width: 800px;
 }
 
-.js .animate-this, .js .animate-intro {
+.js .animate-this,
+.js .animate-intro {
   opacity: 0;
 }
 
 .oldie .animate-this,
-.oldie .animate-intro
-.no-cssanimations .animate-this,
+.oldie .animate-intro .no-cssanimations .animate-this,
 .no-cssanimations .animate-intro {
   opacity: 1;
 }
-
 
 /* ===================================================================
  *  09. header styles - (_layout.scss)
@@ -1284,7 +1326,7 @@ header .header-logo a {
   font-family: "montserrat-regular", sans-serif;
   font-size: 1.4rem;
   text-transform: uppercase;
-  letter-spacing: .2rem;
+  letter-spacing: 0.2rem;
   color: rgba(255, 255, 255, 0.5);
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
@@ -1298,8 +1340,9 @@ header .header-logo a {
 #header-menu-trigger.opaque .header-menu-text {
   background-color: #000000;
 }
-#header-menu-trigger:hover, #header-menu-trigger:focus {
-  color: #FFFFFF;
+#header-menu-trigger:hover,
+#header-menu-trigger:focus {
+  color: #ffffff;
 }
 #header-menu-trigger .header-menu-text {
   display: block;
@@ -1319,15 +1362,15 @@ header .header-logo a {
   display: block;
   height: 3px;
   width: 24px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   position: absolute;
   top: 50%;
   right: 9px;
   margin-top: -1.5px;
 }
-#header-menu-trigger .header-menu-icon::before, 
+#header-menu-trigger .header-menu-icon::before,
 #header-menu-trigger .header-menu-icon::after {
-  content: '';
+  content: "";
   width: 100%;
   height: 100%;
   background-color: inherit;
@@ -1345,7 +1388,7 @@ header .header-logo a {
  * off-canvas menu - (_layout.scss) 
  * ------------------------------------------------------------------- */
 #menu-nav-wrap {
-  background: #0C0C0C;
+  background: #0c0c0c;
   color: rgba(255, 255, 255, 0.25);
   font-size: 1.5rem;
   line-height: 1.6;
@@ -1369,10 +1412,13 @@ header .header-logo a {
   -ms-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
-#menu-nav-wrap a, #menu-nav-wrap a:visited {
+#menu-nav-wrap a,
+#menu-nav-wrap a:visited {
   color: rgba(255, 255, 255, 0.5);
 }
-#menu-nav-wrap a:hover, #menu-nav-wrap a:focus, #menu-nav-wrap a:active {
+#menu-nav-wrap a:hover,
+#menu-nav-wrap a:focus,
+#menu-nav-wrap a:active {
   color: white;
 }
 #menu-nav-wrap h3 {
@@ -1401,7 +1447,7 @@ header .header-logo a {
   color: rgba(255, 255, 255, 0.25);
   display: block;
 }
-#menu-nav-wrap .nav-list li a:hover, 
+#menu-nav-wrap .nav-list li a:hover,
 #menu-nav-wrap .nav-list li a:focus {
   color: white;
 }
@@ -1419,7 +1465,7 @@ header .header-logo a {
 #menu-nav-wrap .header-social-list li a {
   color: rgba(255, 255, 255, 0.15);
 }
-#menu-nav-wrap .header-social-list li a:hover, 
+#menu-nav-wrap .header-social-list li a:hover,
 #menu-nav-wrap .header-social-list li a:focus {
   color: white;
 }
@@ -1439,7 +1485,7 @@ header .header-logo a {
   text-shadow: none;
   color: transparent;
 }
-#menu-nav-wrap .close-button span::before, 
+#menu-nav-wrap .close-button span::before,
 #menu-nav-wrap .close-button span::after {
   content: "";
   display: block;
@@ -1496,7 +1542,6 @@ header .header-logo a {
   }
 }
 
-
 /* ===================================================================
  *  10. home - (_layout.scss)
  *
@@ -1521,7 +1566,7 @@ header .header-logo a {
   left: 0;
   width: 100%;
   height: 100%;
-  opacity: .2;
+  opacity: 0.2;
   background-color: #19191b;
 }
 
@@ -1548,21 +1593,21 @@ header .header-logo a {
   font-size: 2.2rem;
   color: white;
   text-transform: uppercase;
-  letter-spacing: .3rem;
-  margin: 0 0 .9rem 0;
+  letter-spacing: 0.3rem;
+  margin: 0 0 0.9rem 0;
 }
 .home-content-tablecell h1 {
   font-family: "montserrat-bold", serif;
-  font-size: 9rem;
+  font-size: 7.5rem;
   line-height: 1.133;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .home-content-tablecell .more {
   margin: 4.8rem 0 0 0;
 }
 .home-content-tablecell .more .button {
-  border-color: #FFFFFF;
-  color: #FFFFFF;
+  border-color: #ffffff;
+  color: #ffffff;
 }
 
 /* home social-list */
@@ -1590,11 +1635,12 @@ header .header-logo a {
 .home-social-list li {
   padding-left: 0;
 }
-.home-social-list li a, .home-social-list li a:visited {
-  color: #FFFFFF;
+.home-social-list li a,
+.home-social-list li a:visited {
+  color: #ffffff;
 }
-.home-social-list li a:hover, 
-.home-social-list li a:focus, 
+.home-social-list li a:hover,
+.home-social-list li a:focus,
 .home-social-list li a:active {
   color: #151515;
 }
@@ -1615,11 +1661,13 @@ header .header-logo a {
 .scrolldown i {
   padding-left: 9px;
 }
-.scrolldown a:hover, .scrolldown a:focus, .scrolldown a:active {
+.scrolldown a:hover,
+.scrolldown a:focus,
+.scrolldown a:active {
   color: #151515 !important;
 }
 
-html[data-useragent*='MSIE 10.0'] .scrolldown,
+html[data-useragent*="MSIE 10.0"] .scrolldown,
 .oldie .scrolldown {
   display: none;
 }
@@ -1629,8 +1677,8 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   font-family: "montserrat-bold", sans-serif;
   font-size: 1.4rem;
   text-transform: uppercase;
-  letter-spacing: .3rem;
-  color: #FFFFFF !important;
+  letter-spacing: 0.3rem;
+  color: #ffffff !important;
   background: transparent;
   position: relative;
   top: 36px;
@@ -1641,7 +1689,10 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 
 /* vertical animation */
 @-webkit-keyframes animate-it {
-  0%, 60%, 80%, 100% {
+  0%,
+  60%,
+  80%,
+  100% {
     -webkit-transform: translateX(0);
   }
   20% {
@@ -1652,7 +1703,10 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   }
 }
 @keyframes animate-it {
-  0%, 60%, 80%, 100% {
+  0%,
+  60%,
+  80%,
+  100% {
     -webkit-transform: translateX(0);
   }
   20% {
@@ -1766,7 +1820,6 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   }
 }
 
-
 /* ===================================================================
  *  11. about - (_layout.scss)
  *
@@ -1774,7 +1827,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 #about {
   position: relative;
   padding: 4.2rem 0 12rem;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   min-height: 696px;
   text-align: center;
 }
@@ -1788,7 +1841,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   line-height: 1.667;
   color: #07617d;
   text-transform: uppercase;
-  letter-spacing: .3rem;
+  letter-spacing: 0.3rem;
   position: relative;
 }
 #about h3::before {
@@ -1874,7 +1927,6 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   }
 }
 
-
 /* ===================================================================
  *  12. services - (_layout.scss)
  *
@@ -1906,17 +1958,29 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   left: 0;
   width: 100%;
   height: 100%;
-  opacity: .4;
-  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.85) 0%, transparent 100%);
-  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.85) 0%, transparent 100%);
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.85) 0%, transparent 100%);
+  opacity: 0.4;
+  background: -moz-linear-gradient(
+    top,
+    rgba(0, 0, 0, 0.85) 0%,
+    transparent 100%
+  );
+  background: -webkit-linear-gradient(
+    top,
+    rgba(0, 0, 0, 0.85) 0%,
+    transparent 100%
+  );
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.85) 0%,
+    transparent 100%
+  );
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d9000000', endColorstr='#00000000',GradientType=0 );
 }
 #services .section-intro h3 {
   color: rgba(242, 242, 242, 0.5);
 }
 #services .section-intro h1 {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 #services .section-intro .lead {
   text-align: justify;
@@ -1948,7 +2012,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 #services .services-list .h05 {
   font-size: 1.7rem;
   line-height: 1.765;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-bottom: 3rem;
 }
 
@@ -1998,13 +2062,12 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   }
 }
 
-
 /* ===================================================================
  *  13. portfolio - (_layout.scss)
  *
  * ------------------------------------------------------------------- */
 #portfolio {
-  background: #FFFFFF;
+  background: #ffffff;
   min-height: 800px;
   position: relative;
   padding: 0;
@@ -2017,7 +2080,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   color: rgba(242, 242, 242, 0.5);
 }
 #portfolio .section-intro h1 {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 #portfolio .section-intro .lead {
   color: rgba(242, 242, 242, 0.4);
@@ -2025,7 +2088,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 #portfolio .portfolio-content {
   margin-top: -22.2rem;
 }
-#portfolio .bricks-wrapper:before, 
+#portfolio .bricks-wrapper:before,
 #portfolio .bricks-wrapper:after {
   content: "";
   display: table;
@@ -2039,7 +2102,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   padding: 0;
   margin: 0;
 }
-#portfolio .bricks-wrapper .brick:nth-child(2n+1) {
+#portfolio .bricks-wrapper .brick:nth-child(2n + 1) {
   clear: both;
 }
 
@@ -2094,7 +2157,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   left: 50%;
   top: 50%;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
   opacity: 0;
   visibility: hidden;
   -moz-transition: all 0.3s ease-in-out;
@@ -2115,7 +2178,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   z-index: 3;
 }
 .bricks-wrapper .item-wrap .item-text .folio-title {
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 2.2rem;
   line-height: 1.364;
 }
@@ -2124,7 +2187,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   font-size: 1.1rem;
   line-height: 1.5rem;
   text-transform: uppercase;
-  letter-spacing: .1rem;
+  letter-spacing: 0.1rem;
   color: rgba(255, 255, 255, 0.7);
   display: block;
 }
@@ -2147,11 +2210,13 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   font-size: 2rem;
   line-height: 4.2rem;
 }
-.bricks-wrapper .item-wrap .details-link:hover, .bricks-wrapper .item-wrap .details-link:focus {
-  background-color: #FFFFFF;
+.bricks-wrapper .item-wrap .details-link:hover,
+.bricks-wrapper .item-wrap .details-link:focus {
+  background-color: #ffffff;
   color: #000000;
 }
-.bricks-wrapper .item-wrap .item-text, .bricks-wrapper .item-wrap .details-link {
+.bricks-wrapper .item-wrap .item-text,
+.bricks-wrapper .item-wrap .details-link {
   opacity: 0;
   visibility: hidden;
   -webkit-transform: translateY(100%);
@@ -2179,7 +2244,8 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   -ms-transform: scale(1.05);
   transform: scale(1.05);
 }
-.bricks-wrapper .item-wrap:hover .item-text, .bricks-wrapper .item-wrap:hover .details-link {
+.bricks-wrapper .item-wrap:hover .item-text,
+.bricks-wrapper .item-wrap:hover .details-link {
   opacity: 1;
   visibility: visible;
   -webkit-transform: translateX(0);
@@ -2193,11 +2259,13 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 .lg-sub-html {
   padding: 12px 20% 15px;
 }
-.lg-sub-html a, .lg-sub-html a:visited {
+.lg-sub-html a,
+.lg-sub-html a:visited {
   color: #f9a828;
 }
-.lg-sub-html a:hover, .lg-sub-html a:focus {
-  color: #FFFFFF;
+.lg-sub-html a:hover,
+.lg-sub-html a:focus {
+  color: #ffffff;
 }
 @media only screen and (max-width: 1024px) {
   .lg-sub-html {
@@ -2211,7 +2279,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 }
 
 .lg-sub-html h4 {
-  color: #FFFFFF;
+  color: #ffffff;
   font-family: "montserrat-regular", sans-serif;
   font-size: 1.8rem;
   line-height: 1.333;
@@ -2221,16 +2289,17 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   font-family: "montserrat-regular", sans-serif;
   font-size: 1.3rem;
   line-height: 2.4rem;
-  margin: .6rem 0 0;
+  margin: 0.6rem 0 0;
   color: rgba(255, 255, 255, 0.6);
 }
 
-.lg-outer .lg-thumb-item.active, .lg-outer .lg-thumb-item:hover {
+.lg-outer .lg-thumb-item.active,
+.lg-outer .lg-thumb-item:hover {
   border-color: #f9a828;
 }
 
 .lg-progress-bar .lg-progress {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 #lg-counter {
@@ -2258,13 +2327,12 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   }
 }
 
-
 /* ===================================================================
  *  14. testimonials - (_layout.scss)
  *
  * ------------------------------------------------------------------- */
 #testimonials {
-  background: #FFFFFF;
+  background: #ffffff;
   padding: 12rem 0 7.8rem;
   text-align: center;
 }
@@ -2274,7 +2342,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   line-height: 1.667;
   color: #07617d;
   text-transform: uppercase;
-  letter-spacing: .3rem;
+  letter-spacing: 0.3rem;
   position: relative;
   margin-bottom: 4.2rem;
 }
@@ -2298,17 +2366,18 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   line-height: 1.8;
   color: #151515;
 }
-#testimonial-slider p::before, #testimonial-slider p::after {
+#testimonial-slider p::before,
+#testimonial-slider p::after {
   display: inline-block;
   font-family: "librebaskerville-bold", serif;
   font-size: 3.6rem;
   line-height: 1;
 }
 #testimonial-slider p::before {
-  content: '\201C';
+  content: "\201C";
 }
 #testimonial-slider p::after {
-  content: '\201D';
+  content: "\201D";
 }
 #testimonial-slider .testimonial-author {
   margin-top: 4.2rem;
@@ -2327,7 +2396,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   text-align: center;
   font-family: "librebaskerville-bold", sans-serif;
   font-size: 2rem;
-  margin-top: .9rem;
+  margin-top: 0.9rem;
   margin-bottom: 3rem;
   color: #151515;
 }
@@ -2339,7 +2408,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   letter-spacing: 0;
   text-transform: none;
   color: rgba(0, 0, 0, 0.5);
-  margin-top: .3rem;
+  margin-top: 0.3rem;
 }
 
 /* control nav */
@@ -2426,7 +2495,6 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   }
 }
 
-
 /* ===================================================================
  *  15. clients - (_layout.scss)
  *
@@ -2436,7 +2504,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   padding: 4.8rem 0 4.8rem;
 }
 #clients .client-lists .owl-item {
-  opacity: .6;
+  opacity: 0.6;
   -moz-transition: all 0.6s ease-in-out;
   -o-transition: all 0.6s ease-in-out;
   -webkit-transition: all 0.6s ease-in-out;
@@ -2452,22 +2520,22 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   text-align: center;
   -webkit-tap-highlight-color: transparent;
 }
-#clients .owl-carousel .owl-nav [class*='owl-'] {
-  color: #FFFFFF;
+#clients .owl-carousel .owl-nav [class*="owl-"] {
+  color: #ffffff;
   font-family: "montserrat-regular", sans-serif;
   font-size: 1.4rem;
   height: 3rem;
   line-height: 3rem;
-  margin: .6rem;
+  margin: 0.6rem;
   padding: 0 10px;
   background: rgba(0, 0, 0, 0.5);
   display: inline-block;
   cursor: pointer;
   border-radius: 3px;
 }
-#clients .owl-carousel .owl-nav [class*='owl-']:hover {
+#clients .owl-carousel .owl-nav [class*="owl-"]:hover {
   background: rgba(0, 0, 0, 0.7);
-  color: #FFFFFF;
+  color: #ffffff;
   text-decoration: none;
 }
 #clients .owl-carousel .owl-nav .disabled {
@@ -2501,7 +2569,6 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   background-color: #000000;
 }
 
-
 /* ===================================================================
  *  16. contact - (_layout.scss)
  *
@@ -2523,7 +2590,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   left: 0;
   width: 100%;
   height: 100%;
-  opacity: .75;
+  opacity: 0.75;
   background-color: #000000;
 }
 #contact .section-intro h1 {
@@ -2542,12 +2609,12 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 .contact-content {
   max-width: 1024px;
   margin-top: 3rem;
-  color: #FFFFFF;
+  color: #ffffff;
   z-index: 600;
   position: relative;
 }
 .contact-content h5 {
-  color: #FFFFFF;
+  color: #ffffff;
   margin-bottom: 5.4rem;
 }
 .contact-content h6 {
@@ -2568,7 +2635,8 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 #contact form .form-field {
   position: relative;
 }
-#contact form .form-field:before, #contact form .form-field:after {
+#contact form .form-field:before,
+#contact form .form-field:after {
   content: "";
   display: table;
 }
@@ -2583,8 +2651,8 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   bottom: 1.5rem;
   right: 0;
   text-transform: uppercase;
-  letter-spacing: .05rem;
-  padding: .6rem 2rem .6rem 2rem;
+  letter-spacing: 0.05rem;
+  padding: 0.6rem 2rem 0.6rem 2rem;
   margin: 0;
   color: #000000;
   background: #f9a828;
@@ -2631,7 +2699,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 #contact input[type="text"]:focus,
 #contact input[type="password"]:focus,
 #contact input[type="email"]:focus {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 #contact textarea {
@@ -2639,26 +2707,28 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   padding: 1.8rem 2rem;
 }
 #contact textarea:focus {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 #contact button.submitform {
   font-size: 1.5rem;
   display: block;
-  letter-spacing: .2rem;
+  letter-spacing: 0.2rem;
   height: 6rem;
   line-height: 6rem;
   padding: 0 3rem;
   width: 100%;
   background: #f9a828;
   color: #000000;
-  margin-top: .6rem;
+  margin-top: 0.6rem;
 }
-#contact button.submitform:hover, #contact button.submitform:focus {
+#contact button.submitform:hover,
+#contact button.submitform:focus {
   background: #f89e0f;
 }
 
-#message-warning, #message-success {
+#message-warning,
+#message-success {
   display: none;
   background: #000000;
   padding: 3rem;
@@ -2667,7 +2737,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 }
 
 #message-warning {
-  color: #D32B2E;
+  color: #d32b2e;
 }
 
 #message-success {
@@ -2693,8 +2763,8 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   display: none;
   font-family: "montserrat-bold", sans-serif;
   font-size: 1.4rem;
-  color: #FFFFFF;
-  letter-spacing: .2rem;
+  color: #ffffff;
+  letter-spacing: 0.2rem;
   text-transform: uppercase;
 }
 
@@ -2720,10 +2790,10 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 .s-loader > div {
   width: 9px;
   height: 9px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   border-radius: 100%;
   display: inline-block;
-  margin-right: .9rem;
+  margin-right: 0.9rem;
   -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
   animation: sk-bouncedelay 1.4s infinite ease-in-out both;
 }
@@ -2739,7 +2809,9 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 }
 
 @-webkit-keyframes sk-bouncedelay {
-  0%, 80%, 100% {
+  0%,
+  80%,
+  100% {
     -webkit-transform: scale(0);
     -ms-transform: scale(0);
     transform: scale(0);
@@ -2751,7 +2823,9 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   }
 }
 @keyframes sk-bouncedelay {
-  0%, 80%, 100% {
+  0%,
+  80%,
+  100% {
     -webkit-transform: scale(0);
     -ms-transform: scale(0);
     transform: scale(0);
@@ -2798,7 +2872,6 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   }
 }
 
-
 /* ===================================================================
  *  17. footer - (_layout.scss)
  *
@@ -2809,17 +2882,19 @@ footer {
   font-size: 1.5rem;
   color: rgba(255, 255, 255, 0.4);
 }
-footer a, footer a:visited {
-  color: #FFFFFF;
+footer a,
+footer a:visited {
+  color: #ffffff;
 }
-footer a:hover, footer a:focus {
+footer a:hover,
+footer a:focus {
   color: #f9a828;
 }
 footer .row {
   max-width: 1024px;
 }
 footer h4.h05 {
-  color: #FFFFFF;
+  color: #ffffff;
   position: relative;
   padding-bottom: 4.2rem;
   margin-bottom: 3.6rem;
@@ -2849,11 +2924,13 @@ footer h4.h05::after {
   list-style: none;
   padding-left: 0;
 }
-.footer-main ul a, .footer-main ul a:visited {
+.footer-main ul a,
+.footer-main ul a:visited {
   color: rgba(255, 255, 255, 0.4);
 }
-.footer-main ul a:hover, .footer-main ul a:focus {
-  color: #FFFFFF;
+.footer-main ul a:hover,
+.footer-main ul a:focus {
+  color: #ffffff;
 }
 .footer-main .subscribe-form {
   position: relative;
@@ -2889,7 +2966,7 @@ footer h4.h05::after {
   line-height: 6rem;
   margin: 0;
   position: relative;
-  left: .2rem;
+  left: 0.2rem;
 }
 .footer-main #mc-form label {
   color: #f9a828;
@@ -2950,11 +3027,45 @@ footer h4.h05::after {
   background: #000000;
   color: #888;
 }
-#go-top a:hover, #go-top a:focus {
+#go-top a:hover,
+#go-top a:focus {
   background: #000000;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
+#messenger {
+  position: fixed;
+  bottom: 42px;
+  left: 30px;
+  z-index: 700;
+}
+#messenger a {
+  text-decoration: none;
+  border: 0 none;
+  display: block;
+  height: 63px;
+  width: 60px;
+  line-height: 63px;
+  text-align: center;
+  /*background-color: #000000;
+   *color: #888;*/
+  text-align: center;
+  text-transform: uppercase;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+#messenger a i {
+  font-size: 1.7rem;
+  line-height: inherit;
+}
+#messenger a:hover,
+#messenger a:focus {
+  background: #000000;
+  color: #ffffff;
+}
 /* ------------------------------------------------------------------- 
  * responsive:
  * footer
@@ -2987,7 +3098,7 @@ footer h4.h05::after {
 }
 @media only screen and (max-width: 600px) {
   .footer-bottom {
-    padding-bottom: .6rem;
+    padding-bottom: 0.6rem;
   }
   .footer-bottom .copyright span {
     display: block;
@@ -2995,4 +3106,10 @@ footer h4.h05::after {
   .footer-bottom .copyright span::after {
     display: none;
   }
+}
+
+#fixedbutton {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
 }
