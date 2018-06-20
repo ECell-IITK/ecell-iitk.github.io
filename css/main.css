@@ -3113,3 +3113,23 @@ footer h4.h05::after {
   bottom: 0px;
   left: 0px;
 }
+
+#but {
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 1.8rem;
+  color: white;
+  font-family: "montserrat-bold", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  visibility: visible;
+  opacity: 100%;
+  transition-property: all;
+  transition-timing-function: linear;
+  transition-duration: 0.3s;
+}
+
+#butbor {
+  color: white;
+  font-size: xx-large;
+}
