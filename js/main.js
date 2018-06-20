@@ -419,3 +419,29 @@
  
 
 })(jQuery);
+
+var camp=document.getElementById('but');
+    var c=0;
+    function fun(){
+		if(c%2==1){
+            camp.style.opacity="100";
+            setTimeout(function(){camp.style.opacity="0";},3300);
+            setTimeout(function(){camp.innerText='BECOME A CAMPUS AMBASSADOR';
+						var icon=document.createElement("i");
+icon.setAttribute("class","fa fa-share");
+but.appendChild(icon);},3600);
+            c++;
+
+		}
+		else{
+            camp.style.opacity="100";
+            setTimeout(function(){camp.style.opacity="0";},3300);
+            setTimeout(function(){camp.innerText='BE THE LINK BETWEEN YOUR CAMPUS AND IIT KANPUR';
+						var icon=document.createElement("i");
+icon.setAttribute("class","fa fa-share");
+but.appendChild(icon);},3600);
+            c++;
+
+		}
+    }
+

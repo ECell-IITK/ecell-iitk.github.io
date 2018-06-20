@@ -44,9 +44,29 @@
         });
 	</script>
 	<meta name="google-site-verification" content="vSk5sgiuAQ0BaCaew4zBm31mj7y67yxbMIe9tAh3x7k" />
+        <style type="text/css">
+		#but{
+			cursor:pointer;
+		  font-size:1.8rem;
+		  color:white;
+			font-family: "montserrat-bold", sans-serif;
+		  text-transform: uppercase;
+		  letter-spacing: 0.3rem;
+			margin-top: 0px;
+			visibility: visible;
+			opacity: 100%;
+			transition-property: all;
+			transition-timing-function: linear;
+			transition-duration: 0.3s;
+		}
+		#butbor{
+			color: white;
+			font-size: xx-large;
+		}
+	</style>
 </head>
 
-<body id="top">
+<body id="top" onload="setInterval(fun,3610)">
 
 <!-- header
     ================================================== -->
@@ -141,6 +161,11 @@
 							Explore
 						</a>
 					</div>
+                                        <a class="smoothscroll" id="butbor" href="#about">
+                                                <p id="but">BECOME A CAMPUS AMBASSADOR
+                                                           <i class="fa fa-share"></i>
+                                                </p>
+                                        </a>
 
 				</div>
 				<!-- end col-twelve -->
