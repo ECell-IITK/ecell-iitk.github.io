@@ -665,7 +665,7 @@ input[type="url"]:focus,
 input[type="password"]:focus,
 textarea:focus,
 select:focus {
-  color: #000000;
+  color: #fff;
 }
 
 label,
