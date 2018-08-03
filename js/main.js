@@ -427,7 +427,7 @@ function fun(){
 	if(c%2==1){
 		camp.style.opacity="100";
 		setTimeout(function(){camp.style.opacity="0";},3300);
-		setTimeout(function(){camp.innerText='BECOME A CAMPUS AMBASSADOR';
+		setTimeout(function(){camp.innerText='Register now for eSummit\'18';
 			var icon=document.createElement("i");
 			icon.setAttribute("class","fa fa-share");
 			but.appendChild(icon);},3600);
