@@ -437,7 +437,7 @@ function fun(){
 	else{
 		camp.style.opacity="100";
 		setTimeout(function(){camp.style.opacity="0";},3300);
-		setTimeout(function(){camp.innerText='BE THE LINK BETWEEN YOUR CAMPUS AND IIT KANPUR';
+		setTimeout(function(){camp.innerText='24. 25. 26. August. Ready. Set. Pitch.';
 			var icon=document.createElement("i");
 			icon.setAttribute("class","fa fa-share");
 			but.appendChild(icon);},3600);
