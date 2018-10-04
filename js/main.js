@@ -5,7 +5,7 @@ $(window).load(function () {
         console.log("Notification permission status:", status);
       });
 	}
-}
+});
 
 (function($) {
 
