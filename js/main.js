@@ -1,11 +1,11 @@
-$(window).load(function () {
-    if ("Notification" in window && navigator.serviceWorker) {
-      // Display the UI to let the user toggle notifications
-      Notification.requestPermission(function (status) {
-        console.log("Notification permission status:", status);
-      });
-	}
-});
+// $(window).load(function () {
+//     if ("Notification" in window && navigator.serviceWorker) {
+//       // Display the UI to let the user toggle notifications
+//       Notification.requestPermission(function (status) {
+//         console.log("Notification permission status:", status);
+//       });
+// 	}
+// });
 
 (function($) {
 
