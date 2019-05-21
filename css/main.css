@@ -883,6 +883,10 @@ input::-moz-focus-inner {
   cursor: pointer;
 }
 
+.line-height-2 {
+  line-height: 1.2!important;
+}
+
 .ss-error {
   background-color: #ffd1d2;
   color: #e65153;
