@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <sitemap>
+        <loc>https://www.ecelliitk.org/sitemap-ecell.xml</loc>
+        <lastmod>2019-06-25</lastmod>
+    </sitemap>
+    <sitemap>
+        <loc>https://www.ecelliitk.org/sitemap-esummit.xml</loc>
+        <lastmod>2019-06-25</lastmod>
+    </sitemap>
+    <sitemap>
+        <loc>https://www.ecelliitk.org/sitemap-upstart.xml</loc>
+        <lastmod>2019-06-25</lastmod>
+    </sitemap>
+    <sitemap>
+        <loc>https://www.ecelliitk.org/sitemap-ca.xml</loc>
+        <lastmod>2019-06-25</lastmod>
+    </sitemap>
+    <sitemap>
+        <loc>https://www.ecelliitk.org/sitemap-tedx.xml</loc>
+        <lastmod>2019-06-25</lastmod>
+    </sitemap>
+</sitemapindex
