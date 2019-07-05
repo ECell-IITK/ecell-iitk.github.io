@@ -6,7 +6,7 @@ TARGET_BRANCH=master
 TARGET_BASE_DIRECTORY="."
 BUILD_TAG=ECELLMASTER
 # Directories not to clean up
-KEEP_DIRECTORIES=(esummit tedx sip ca)
+KEEP_DIRECTORIES=(esummit tedx sip ca CNAME)
 #------------------------------------------------------------>
 
 CURRENT_REPO_PATH=$PWD
