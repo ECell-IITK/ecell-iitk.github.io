@@ -1,1 +1,2 @@
-Sitemap: http://www.ecelliitk.com/sitemap-ecell.xml
+Sitemap: https://www.ecelliitk.org/sitemap.xml
+User-agent:*
