@@ -41,6 +41,6 @@ eval cd $TARGET_GIT_HEAD
 git add -A
 git config user.name "TravisBot"
 git config user.email "travis@travis-ci.org"
-git commit -m "Bot Build No.: "$BUILD_TAG$TRAVIS_BUILD_NUMBER
+git commit -m "Bot Build ID: "$BUILD_TAG$TRAVIS_BUILD_NUMBER
 git push origin $TARGET_BRANCH
 popd
