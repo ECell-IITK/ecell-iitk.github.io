@@ -1,0 +1,2 @@
+Sitemap: https://www.ecelliitk.org/sitemap.xml
+User-agent:*

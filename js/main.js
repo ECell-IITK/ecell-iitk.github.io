@@ -436,7 +436,7 @@ function fun(){
 	if(c%2==1){
 		camp.style.opacity="100";
 		setTimeout(function(){camp.style.opacity="0";},3300);
-		setTimeout(function(){camp.innerText='Register now for eSummit\'18';
+		setTimeout(function(){camp.innerText='Register for Campus Ambassodor Program';
 			var icon=document.createElement("i");
 			icon.setAttribute("class","fa fa-share");
 			but.appendChild(icon);},3600);
@@ -446,7 +446,7 @@ function fun(){
 	else{
 		camp.style.opacity="100";
 		setTimeout(function(){camp.style.opacity="0";},3300);
-		setTimeout(function(){camp.innerText='24. 25. 26. August. Ready. Set. Pitch.';
+		setTimeout(function(){camp.innerText='Why Follow, When you can lead?';
 			var icon=document.createElement("i");
 			icon.setAttribute("class","fa fa-share");
 			but.appendChild(icon);},3600);
