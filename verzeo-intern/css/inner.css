@@ -1,0 +1,89 @@
+body {
+  background: none !important;
+  margin: 0px;
+  padding: 0px;
+  height: fit-content;
+}
+
+.title {
+  color: white;
+  text-align: center;
+  margin-top: 55px;
+  font-weight: 600;
+}
+
+.infoo {
+  color: white;
+  margin-top: 10%;
+}
+
+.infoo1 {
+  color: white;
+  margin-top: 10%;
+}
+
+@media (max-width: 767px) {
+  .infoo img {
+    margin-bottom: 2em;
+  }
+  .text-line {
+    display: none;
+  }
+  .headingmob {
+    color: white;
+    font-size: 56px;
+    display: block !important;
+  }
+}
+
+.div-hr {
+  background-color: white;
+  width: 25%;
+  text-align: left;
+}
+
+/* text Decoration */
+
+.text-line {
+  stroke-dasharray: 700;
+  stroke-dashoffset: 700;
+  animation: dash 4s linear forwards, filling 2.5s ease-in forwards;
+  font-size: 350%;
+}
+
+.text-line text {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes filling {
+  0%,
+  90% {
+    fill: #ffffff;
+    fill-opacity: 0;
+  }
+  100% {
+    fill: #ffffff;
+    fill-opacity: 1;
+  }
+}
+
+.link {
+  color: white !important;
+  padding: 0.7em 1.8em;
+  box-shadow: 0px 0px 4px 0px white inset;
+  border: 1px solid white;
+  transition: 1s all;
+  margin: auto;
+  display: block;
+  width: fit-content;
+  font-size: 20px;
+  margin-top: 3%;
+}
