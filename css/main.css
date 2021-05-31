@@ -859,6 +859,7 @@ input::-moz-focus-inner {
   padding: 0;
 }
 
+
 /* ===================================================================
  *  07. other components - (_others.scss)
  *
@@ -1264,7 +1265,10 @@ input::-moz-focus-inner {
 .no-cssanimations .animate-intro {
   opacity: 1;
 }
-
+.text_button{
+  color: white;
+  background-color: tomato;
+}
 /* ===================================================================
  *  09. header styles - (_layout.scss)
  *
