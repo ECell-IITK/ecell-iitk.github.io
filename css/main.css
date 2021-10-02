@@ -18,6 +18,7 @@
  *  15. clients
  *  16. contact
  *  17. footer
+ *  18. Magazine
  *
  * =================================================================== */
 
@@ -3137,3 +3138,98 @@ footer h4.h05::after {
   color: white;
   font-size: xx-large;
 }
+
+/* ===================================================================
+ *  18. Magazine - (_layout.scss)
+ *
+ * ------------------------------------------------------------------- */
+#magazine {
+  min-height: 800px;
+  position: relative;
+  padding: 0;
+}
+#magazine .intro-wrap {
+  padding: 15rem 0 21rem;
+  background: #111111;
+}
+#magazine .section-intro h3 {
+  color: rgba(242, 242, 242, 0.5);
+}
+#magazine .section-intro h1 {
+  color: #ffffff;
+}
+
+#magazine .magazine-content {
+  margin-top: -22.2rem;
+}
+#magazine .bricks-wrapper:before,
+#magazine .bricks-wrapper:after {
+  content: "";
+  display: table;
+}
+#magazine .bricks-wrapper:after {
+  clear: both;
+}
+#magazine .bricks-wrapper .brick {
+  float: left;
+  width: 50%;
+  padding: 0;
+  margin: 0;
+}
+#magazine .bricks-wrapper .brick:nth-child(2n + 1) {
+  clear: both;
+}
+
+.content-magazine{
+  color:#F2F2F280;
+  padding:30px !important;
+}
+
+
+.bricks-wrapper .item-wrap .item-text .magazine-title {
+  color: #ffffff;
+  font-size: 2.2rem;
+  line-height: 1.364;
+}
+
+.ensight-button{
+  color:white !important;
+  border: 3px solid white !important;
+}
+
+.ensight-button.stroke:hover {
+  border: 3px solid #f9a828 !important;
+  color: #f9a828 !important;
+}
+
+@media only screen and (max-width: 768px) {
+  #magazine .intro-wrap {
+    padding: 12rem 0 21rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  #magazine .bricks-wrapper .brick {
+    float: none;
+    width: 100%;
+  }
+
+  .bricks-wrapper .item-wrap .item-text .magazine-title {
+    font-size: 2rem;
+    line-height: 1.5;
+  }
+  .content-magazine{
+    padding:10px !important;
+  }
+
+  .ensight-button {
+    margin:auto !important;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .ensight {
+    height:500px;
+    position:relative;
+    left:20%;
+  }
+}
+
