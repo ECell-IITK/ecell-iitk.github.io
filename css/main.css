@@ -1565,6 +1565,11 @@ header .header-logo a {
   min-height: 804px;
   position: relative;
 }
+.register-summit:hover {
+  background-color: #000;
+  opacity: 0.8;
+}
+
 #home .overlay {
   position: absolute;
   top: 0;
@@ -1590,7 +1595,7 @@ header .header-logo a {
 }
 .home-content-tablecell .row {
   position: relative;
-  padding-top: 16.2rem;
+  padding-top: 14.2rem;
   padding-bottom: 15rem;
 }
 .home-content-tablecell h3 {
