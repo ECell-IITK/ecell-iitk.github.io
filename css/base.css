@@ -581,6 +581,15 @@ textarea {
 .block-1-2 .bgrid {
   width: 50%;
 }
+.block-1-1 .bgrid{
+  /* width: 100%; */
+}
+.block-1-1{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;  
+}
 
 /**
  * Clearing for block grid columns. Allow columns with 
@@ -589,9 +598,11 @@ textarea {
 .block-1-6 .bgrid:nth-child(6n+1),
 .block-1-4 .bgrid:nth-child(4n+1),
 .block-1-3 .bgrid:nth-child(3n+1),
-.block-1-2 .bgrid:nth-child(2n+1) {
+.block-1-2 .bgrid:nth-child(2n+1),
+.block-1-1 .bgrid:nth-child(n) {
   clear: both;
 }
+
 
 /* ------------------------------------------------------------------- 
  * small screens - (_grid.scss)
