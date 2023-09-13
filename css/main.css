@@ -30,6 +30,7 @@
 @import url("font-awesome/css/font-awesome.min.css");
 @import url("micons/micons.css");
 @import url("fonts.css");
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@800&family=Oxanium:wght@800&display=swap');
 
 /* ===================================================================
  *  02. base style overrides - (_document-setup)
@@ -59,6 +60,7 @@ body {
   height: 100%;
 }
 
+
 body {
   background: #111111;
   font-family: "librebaskerville-regular", serif;
@@ -67,6 +69,16 @@ body {
   color: #353535;
   margin: 0;
   padding: 0;
+}
+
+.e-summit-23-special{
+  text-transform: uppercase;
+    background: linear-gradient(180deg, #FFF -11.67%, #3697CF 145.83%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(6px 4px 4px #000);
+    font-size: 20px;
 }
 
 /* ------------------------------------------------------------------- 
