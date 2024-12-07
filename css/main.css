@@ -2110,6 +2110,9 @@ html[data-useragent*="MSIE 10.0"] .scrolldown,
 #portfolio .portfolio-content {
   margin-top: -22.2rem;
 }
+.folio-item img{
+  padding: 1rem 1rem;
+}
 #portfolio .bricks-wrapper:before,
 #portfolio .bricks-wrapper:after {
   content: "";
@@ -3175,7 +3178,6 @@ footer h4.h05::after {
 #magazine .section-intro h1 {
   color: #ffffff;
 }
-
 #magazine .magazine-content {
   margin-top: -22.2rem;
 }
@@ -3201,9 +3203,7 @@ footer h4.h05::after {
   color:#F2F2F280;
   padding:30px !important;
 }
-
-
-.bricks-wrapper .item-wrap .item-text .magazine-title {
+button .bricks-wrapper .item-wrap .item-text .magazine-title {
   color: #ffffff;
   font-size: 2.2rem;
   line-height: 1.364;
