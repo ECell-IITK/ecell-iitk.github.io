@@ -1,4 +1,4 @@
-import{j as e,m as s,r as d,u as p,a as i}from"./index-BdnSC57q.js";const h="/esummit/assets/upstartCampus-Bbo4bsdG.png",g="/esummit/assets/DECRYPT-BBEhCIi6.png",u="/esummit/assets/SellYourSoul-DmpnYuZh.png",x="/esummit/assets/modelUnited-B_WSWuXu.png",f="/esummit/assets/beAnAngel-WARUgZlV.png",b="/esummit/assets/bg1-CT_tIByl.jpg",v="/esummit/assets/bg4-B9Vl0Chp.jpg",w="/esummit/assets/bg5-D1JPQh0D.jpg",j="/esummit/assets/bg6-DuNDudaK.jpg",y="/esummit/assets/bg7-nNZJOFAa.jpg",N=[{title:"DECRYPT",desc:"Ignite your entrepreneurial spirit with Decrypt, the ultimate case study competition. Dive into real-world challenges, make tough decisions, and embark on an exhilarating journey of problem-solving!",image:g,link:"https://unstop.com/competitions/decrypt-iit-kanpur-1609760",bg:b},{title:"BE AN ANGEL",desc:"Experience the investor's perspective in Be an Angel:Shark Tank Edition. Role-play as an Angel Investor with $5 million to invest. Assess startups, pitch investment strategies, and face VC judges. Understand both sides of the table in this nerve-wracking pitch competition.",image:f,link:"https://unstop.com/competitions/be-an-angel-iit-kanpur-1609387",bg:v},{title:"SELL YOUR SOLE",desc:"Prepare to unleash your marketing genius in the Sell Your Sole competition! Step into the shoes of a CMO and craft a game-changing marketing campaign for an existing brand. It's your chance to redefine success!",image:u,link:"https://unstop.com/competitions/sell-your-sole-iit-kanpur-1609421",bg:w},{title:"UPSTART CAMPUS",desc:"The classic pitching competition that showcases one's ability to ideate and pitch in front of judges from the across entrepreneurship world. Get the experience of being in the shoes of real life entrepreneur and learn what 'The Art of the Pitch' is all about.",image:h,link:"https://unstop.com/competitions/upstart-campus-iit-kanpur-1609728",bg:j},{title:"MODEL UNITED CORPORATION",desc:"Unlock the thrill of corporate leadership! Join Model United Corporations and immerse yourself in the world of CEOs, CMOs, and CFOs. Conquer high-pressure decision-making, strategic challenges, and teamwork. Sharpen your skills, seize the spotlight, and prove you've got what it takes to lead in the boardroom. Join the competition, transform into a corporate titan!",image:x,link:"https://unstop.com/competitions/model-united-corporation-iit-kanpur-1609475",bg:y}];function C(){return e.jsxs("section",{id:"competitions",className:"relative  text-white overflow-x-hidden",children:[e.jsx("div",{className:`\r
+import{j as e,m as s,r as d,u as p,a as i}from"./index-DOa3o36C.js";const h="/esummit/assets/upstartCampus-Bbo4bsdG.png",g="/esummit/assets/DECRYPT-BBEhCIi6.png",u="/esummit/assets/SellYourSoul-DmpnYuZh.png",x="/esummit/assets/modelUnited-B_WSWuXu.png",f="/esummit/assets/beAnAngel-WARUgZlV.png",b="/esummit/assets/bg1-CT_tIByl.jpg",v="/esummit/assets/bg4-B9Vl0Chp.jpg",w="/esummit/assets/bg5-D1JPQh0D.jpg",j="/esummit/assets/bg6-DuNDudaK.jpg",y="/esummit/assets/bg7-nNZJOFAa.jpg",N=[{title:"DECRYPT",desc:"Ignite your entrepreneurial spirit with Decrypt, the ultimate case study competition. Dive into real-world challenges, make tough decisions, and embark on an exhilarating journey of problem-solving!",image:g,link:"https://unstop.com/competitions/decrypt-iit-kanpur-1609760",bg:b},{title:"BE AN ANGEL",desc:"Experience the investor's perspective in Be an Angel:Shark Tank Edition. Role-play as an Angel Investor with $5 million to invest. Assess startups, pitch investment strategies, and face VC judges. Understand both sides of the table in this nerve-wracking pitch competition.",image:f,link:"https://unstop.com/competitions/be-an-angel-iit-kanpur-1609387",bg:v},{title:"SELL YOUR SOLE",desc:"Prepare to unleash your marketing genius in the Sell Your Sole competition! Step into the shoes of a CMO and craft a game-changing marketing campaign for an existing brand. It's your chance to redefine success!",image:u,link:"https://unstop.com/competitions/sell-your-sole-iit-kanpur-1609421",bg:w},{title:"UPSTART CAMPUS",desc:"The classic pitching competition that showcases one's ability to ideate and pitch in front of judges from the across entrepreneurship world. Get the experience of being in the shoes of real life entrepreneur and learn what 'The Art of the Pitch' is all about.",image:h,link:"https://unstop.com/competitions/upstart-campus-iit-kanpur-1609728",bg:j},{title:"MODEL UNITED CORPORATION",desc:"Unlock the thrill of corporate leadership! Join Model United Corporations and immerse yourself in the world of CEOs, CMOs, and CFOs. Conquer high-pressure decision-making, strategic challenges, and teamwork. Sharpen your skills, seize the spotlight, and prove you've got what it takes to lead in the boardroom. Join the competition, transform into a corporate titan!",image:x,link:"https://unstop.com/competitions/model-united-corporation-iit-kanpur-1609475",bg:y}];function C(){return e.jsxs("section",{id:"competitions",className:"relative  text-white overflow-x-hidden",children:[e.jsx("div",{className:`\r
     absolute top-0 left-0 w-full h-40\r
     pointer-events-none\r
     z-[-5]\r
@@ -39,7 +39,7 @@ import{j as e,m as s,r as d,u as p,a as i}from"./index-BdnSC57q.js";const h="/es
             relative\r
             w-full md:w-1/2\r
             flex flex-col justify-center\r
-            px-6 sm:px-10 md:px-24 lg:px-30\r
+            px-6 sm:px-10 md:px-24 lg:px-40\r
             py-12 md:py-0\r
           `,children:e.jsxs(s.div,{style:{scale:c},className:`\r
               relative\r
@@ -48,17 +48,21 @@ import{j as e,m as s,r as d,u as p,a as i}from"./index-BdnSC57q.js";const h="/es
               mx-auto md:mx-0\r
               w-full\r
               mw-full\r
-              max-w-[520px] md:max-w-[620px] lg:max-w-[720px]\r
-              h-[24vh] sm:h-[28vh] md:h-[45vh]\r
+max-w-[520px] md:max-w-[620px] lg:max-w-[720px]\r
+\r
+\r
+              h-[24vh] sm:h-[28vh] md:h-[42vh]\r
             `,children:[e.jsx("img",{src:t.bg,className:"absolute inset-0 w-full h-full object-cover opacity-75 ",alt:"",loading:"lazy",decoding:"async"}),e.jsx("img",{src:t.image,alt:t.title,className:`\r
                 relative z-10\r
                 w-full h-full\r
                 object-contain\r
-                p-15 sm:p-14 md:p-15\r
+                p-15 sm:p-14 md:p-20\r
+\r
               `,loading:"lazy",decoding:"async"})]})}),e.jsx("div",{className:`\r
             w-full md:w-1/2\r
             flex items-center\r
             px-6 sm:px-10 md:px-16 lg:px-24\r
+\r
             pb-16 md:pb-0\r
           `,children:e.jsxs(s.div,{style:{x:l},className:"max-w-md mx-auto md:mx-0 text-center md:text-left",children:[e.jsx("h3",{className:`\r
                 text-xl sm:text-2xl md:text-3xl\r
